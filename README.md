@@ -21,8 +21,8 @@ This project is **ongoing** and continuously evolving. While we strive for accur
 
 ## 📰 News
 
-- **[2025.07.03]** Repository initialized with comprehensive outline
-- **[2025.07.03]** Survey structure established following modern context engineering paradigms
+- **[2025.7]** Repository initialized with comprehensive outline
+- **[2025.7]** Survey structure established following modern context engineering paradigms
 
 ---
 
@@ -36,48 +36,14 @@ This repository serves as a comprehensive survey of context engineering techniqu
 
 ## 📚 Table of Contents
 
-- [🔗 Related Survey](#-related-survey)
-  - General AI Survey Papers
-  - Context and Reasoning  
-  - Memory Systems and Context Persistence
-
-- [🏗️ Definition of Context Engineering](#-definition-of-context-engineering)
-  - LLM Generation Process
-  - Definition of Context
-  - Context Engineering Formalization
-  - Dynamic Context Orchestration
-  - Mathematical Principles & Bayesian Framework
-
-- [🤔 Why Context Engineering?](#-why-context-engineering)
-  - The Paradigm Shift: From Tactical to Strategic
-  - Fundamental Challenges with Current Approaches
-  - Limitations of Static Prompting
-  - Enterprise and Production Requirements
-  - Cognitive and Information Science Foundations
-
-- [🔧 Components, Techniques and Architectures](#-components-techniques-and-architectures)
-  - **Context Scaling**: Position interpolation, memory-efficient attention, ultra-long sequences (100K+ tokens)
-  - **Structured Data Integration**: Knowledge graphs, graph neural networks, structured data processing
-  - **Self-Generated Context**: Autonomous reasoning, iterative refinement, self-improvement
-
-- [🛠️ Implementation and Challenges](#-implementation-and-challenges)
-  - **Retrieval-Augmented Generation (RAG)**: Foundation models, advanced strategies, multimodal integration
-  - **Memory Systems**: Persistent context, hierarchical memory, long-term storage
-  - **Agent Communication**: Multi-agent protocols, coordination, collaborative reasoning
-  - **Tool Use and Function Calling**: API integration, external system interaction
-
-- [📊 Evaluation Paradigms for Context-Driven Systems](#-evaluation-paradigms-for-context-driven-systems)
-  - Context Quality Assessment (RULER, LongBench, InfiniteBench)
-  - Benchmarking Context Engineering Systems
-
-- [🚀 Applications and Systems](#-applications-and-systems)
-  - **Complex Research Systems**: AI-powered scientific discovery, automated research workflows
-  - **Production Systems**: Enterprise applications, conversational agents, real-world deployments
-
-- [🔮 Limitations and Future Directions](#-limitations-and-future-directions)
-  - Current Technical Limitations
-  - Future Research Opportunities
-  - Emerging Paradigms and Technologies
+- [Related Survey](#related-survey)
+- [Definition of Context Engineering](#definition-of-context-engineering)
+- [Why Context Engineering?](#why-context-engineering)
+- [Components, Techniques and Architectures](#contextual-components-techniques-and-architectures)
+- [Implementation and Challenges](#implementation-challenges-and-mitigation-strategies)
+- [Evaluation Paradigms for Context-Driven Systems](#evaluation-paradigms-for-context-driven-systems)
+- [Applications and Systems](#applications-and-systems)
+- [Limitations and Future Directions](#limitations-and-future-directions)
 
 ---
 
@@ -220,8 +186,6 @@ This repository serves as a comprehensive survey of context engineering techniqu
     <a href="https://github.com/agiresearch/A-mem" target="_blank">
   		<img src="https://img.shields.io/github/stars/agiresearch/A-mem.svg?style=social" alt="GitHub stars">
     </a></li>
-<li><i><b>MemAgent: Reshaping Long-Context LLM with Multi-Conv RL-based Memory Agent</b></i>, Anonymous et al., <a href="https://arxiv.org/abs/2507.02259" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.07-red" alt="arXiv Badge"></a>
-    </li>
 </ul>
 <b>Graph-based Memory Systems</b>
 
@@ -288,7 +252,7 @@ This repository serves as a comprehensive survey of context engineering techniqu
     <a href="https://github.com/p-lambda/incontext-learning" target="_blank">
   		<img src="https://img.shields.io/github/stars/p-lambda/incontext-learning.svg?style=social" alt="GitHub stars">
     </a></li>
-<li><i><b>Rethinking the Role of Demonstrations: What Makes In-context Learning Work?</b></i>, Min et al., <a href="#" target="_blank"><img src="https://img.shields.io/badge/EMNLP-2022-blue" alt="EMNLP Badge"></a>
+<li><i><b>Rethinking the Role of Demonstrations: What Makes In-Context Learning Work?</b></i>, Min et al., <a href="#" target="_blank"><img src="https://img.shields.io/badge/EMNLP-2022-blue" alt="EMNLP Badge"></a>
     <a href="https://github.com/Alrope123/rethinking-demonstrations" target="_blank">
   		<img src="https://img.shields.io/github/stars/Alrope123/rethinking-demonstrations.svg?style=social" alt="GitHub stars">
     </a></li>
@@ -423,7 +387,7 @@ This Bayesian formulation enables:
 - [Context Engineering is Runtime of AI Agents | by Bijit Ghosh | Jun, 2025 | Medium](https://medium.com/@bijit211987/context-engineering-is-runtime-of-ai-agents-411c9b2ef1cb)
 - [Context Engineering](https://blog.langchain.com/context-engineering-for-agents/)
 - [Context Engineering for Agents](https://rlancemartin.github.io/2025/06/23/context_engineering/)
-- [Cognition | Don't Build Multi-Agents](https://cognition.ai/blog/dont-build-multi-agents)
+- [Cognition | Don’t Build Multi-Agents](https://cognition.ai/blog/dont-build-multi-agents)
 - [从Prompt Engineering到Context Engineering - 53AI-AI知识库|大模型知识库|大模型训练|智能体开发](https://www.53ai.com/news/tishicikuangjia/2025062727685.html)
 
 ### Social Media & Talks
@@ -441,32 +405,21 @@ This Bayesian formulation enables:
 
 The evolution from prompt engineering to context engineering represents a fundamental maturation in AI system design. As influential figures like Andrej Karpathy, Tobi Lutke, and Simon Willison have argued, the term "prompt engineering" has been diluted to mean simply "typing things into a chatbot," failing to capture the complexity required for industrial-strength LLM applications.
 
-### 1. Fundamental Challenges with Current Approaches
+### 1. Enterprise and Production Necessities
 
-#### Human Intent Communication Challenges
-- **Unclear Human Intent Expression**: Human intentions are often unclear, incomplete, or ambiguous when expressed in natural language
-- **AI's Incomplete Understanding of Human Intent**: AI systems struggle to fully comprehend complex human intentions, especially those involving implicit context or cultural nuances
-- **Overly Literal AI Interpretation**: AI systems often interpret human instructions too literally, missing the underlying intent or contextual meaning
+#### Context Failures Are the New Bottleneck
+Most failures in modern agentic systems are no longer attributable to core model reasoning capabilities but are instead **"context failures"**. The true engineering challenge lies not in what question to ask, but in ensuring the model has all necessary background, data, tools, and memory to answer meaningfully and reliably.
 
-#### Complex Knowledge Requirements
-Single models alone cannot solve complex problems that require:
-- **(1) Large-scale External Knowledge**: Vast amounts of external knowledge that exceed model capacity
-- **(2) Accurate External Knowledge**: Precise, up-to-date information that models may not possess
-- **(3) Novel External Knowledge**: Emerging knowledge that appears after model training
+#### Scalability Beyond Simple Tasks
+While prompt engineering suffices for simple, self-contained tasks, it breaks down when scaled to:
+- **Complex, multi-step applications**
+- **Data-rich enterprise environments** 
+- **Stateful, long-running workflows**
+- **Multi-user, multi-tenant systems**
 
-**Static Knowledge Limitations:**
-- **Static Knowledge Problem**: Pre-trained models contain static knowledge that becomes outdated
-- **Knowledge Cutoff**: Models cannot access information beyond their training data
-- **Domain-Specific Gaps**: Models lack specialized knowledge for specific industries or applications
+Context Engineering provides the architectural foundation for managing state, integrating diverse data sources, and maintaining coherence across these demanding scenarios.
 
-#### Reliability and Trustworthiness Issues
-- **AI Hallucination**: LLMs generate plausible but factually incorrect information when lacking proper context
-- **Lack of Provenance**: Absence of clear source attribution for generated information
-- **Confidence Calibration**: Models often appear confident even when generating false information
-- **Transparency Gaps**: Inability to trace how conclusions were reached
-- **Accountability Issues**: Difficulty in verifying the reliability of AI-generated content
-
-### 2. Limitations of Static Prompting
+### 2. The Limitations of Static Prompting
 
 #### From Strings to Systems
 Traditional prompting treats context as a static string, but enterprise applications require:
@@ -478,17 +431,21 @@ Traditional prompting treats context as a static string, but enterprise applicat
 #### The "Movie Production" Analogy
 If prompt engineering is writing a single line of dialogue for an actor, context engineering is the entire process of building the set, designing lighting, providing detailed backstory, and directing the scene. The dialogue only achieves its intended impact because of the rich, carefully constructed environment surrounding it.
 
-### 3. Enterprise and Production Requirements
+### 3. Cognitive and Information Science Foundations
 
-#### Context Failures Are the New Bottleneck
-Most failures in modern agentic systems are no longer attributable to core model reasoning capabilities but are instead **"context failures"**. The true engineering challenge lies not in what question to ask, but in ensuring the model has all necessary background, data, tools, and memory to answer meaningfully and reliably.
+#### Artificial Embodiment
+LLMs are essentially "brains in a vat" - powerful reasoning engines lacking connection to specific environments. Context Engineering provides:
+- **Synthetic Sensory Systems**: Retrieval mechanisms as artificial perception
+- **Proxy Embodiment**: Tool use as artificial action capabilities  
+- **Artificial Memory**: Structured information storage and retrieval
 
-#### Scalability Beyond Simple Tasks
-While prompt engineering suffices for simple, self-contained tasks, it breaks down when scaled to:
-- **Complex, multi-step applications**
-- **Data-rich enterprise environments** 
-- **Stateful, long-running workflows**
-- **Multi-user, multi-tenant systems**
+#### Information Retrieval at Scale
+Context Engineering addresses the fundamental challenge of information retrieval where the "user" is not human but an AI agent. This requires:
+- **Semantic Understanding**: Bridging the gap between intent and expression
+- **Relevance Optimization**: Ranking and filtering vast knowledge bases
+- **Query Transformation**: Converting ambiguous requests into precise retrieval operations
+
+### 4. Production-Grade Requirements
 
 #### Reliability and Consistency
 Enterprise applications demand:
@@ -503,22 +460,6 @@ Context Engineering enables:
 - **Latency Management**: Efficient information retrieval and context assembly
 - **Resource Utilization**: Optimal use of finite context windows and computational resources
 - **Maintenance Scalability**: Systematic approaches to updating and managing knowledge bases
-
-Context Engineering provides the architectural foundation for managing state, integrating diverse data sources, and maintaining coherence across these demanding scenarios.
-
-### 4. Cognitive and Information Science Foundations
-
-#### Artificial Embodiment
-LLMs are essentially "brains in a vat" - powerful reasoning engines lacking connection to specific environments. Context Engineering provides:
-- **Synthetic Sensory Systems**: Retrieval mechanisms as artificial perception
-- **Proxy Embodiment**: Tool use as artificial action capabilities  
-- **Artificial Memory**: Structured information storage and retrieval
-
-#### Information Retrieval at Scale
-Context Engineering addresses the fundamental challenge of information retrieval where the "user" is not human but an AI agent. This requires:
-- **Semantic Understanding**: Bridging the gap between intent and expression
-- **Relevance Optimization**: Ranking and filtering vast knowledge bases
-- **Query Transformation**: Converting ambiguous requests into precise retrieval operations
 
 ### 5. The Future of AI System Architecture
 
@@ -553,6 +494,7 @@ This discipline is foundational for unlocking the full potential of LLMs in prod
 </ul>
 
 <b>Memory-Efficient Attention Mechanisms</b>
+
 <ul>
 <li><i><b>Fast Multipole Attention: A Divide-and-Conquer Attention Mechanism for Long Sequences</b></i>, Kang et al., <a href="https://arxiv.org/abs/2310.11960" target="_blank"><img src="https://img.shields.io/badge/ICLR-2024.02-blue" alt="ICLR Badge"></a>
     <a href="https://github.com/yanmingk/FMA" target="_blank">
@@ -572,6 +514,7 @@ This discipline is foundational for unlocking the full potential of LLMs in prod
     </a></li>
 </ul>
 
+
 <b>Ultra-Long Sequence Processing (100K+ Tokens)</b>
 <ul>
 <li><i><b>TokenSwift: Lossless Acceleration of Ultra Long Sequence Generation</b></i>, Wu et al., <a href="https://arxiv.org/abs/2502.18890" target="_blank"><img src="https://img.shields.io/badge/ICML-2025.02-blue" alt="ICML Badge"></a>
@@ -588,6 +531,7 @@ This discipline is foundational for unlocking the full potential of LLMs in prod
     </a></li>
 </ul>
 
+
 <b>Comprehensive Extension Surveys and Methods</b>
 <ul>
 <li><i><b>Beyond the Limits: A Survey of Techniques to Extend the Context Length in Large Language Models</b></i>, Various, <a href="https://arxiv.org/abs/2402.02244" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.02-red" alt="arXiv Badge"></a>
@@ -601,6 +545,80 @@ This discipline is foundational for unlocking the full potential of LLMs in prod
   		<img src="https://img.shields.io/github/stars/umich-sota/selective_attention.svg?style=social" alt="GitHub stars">
     </a></li>
 </ul>
+
+<b>Vision-Language Models with Sophisticated Context Understanding</b>
+
+<ul>
+<li><i><b>Towards LLM-Centric Multimodal Fusion: A Survey on Integration Strategies and Techniques</b></i>, An et al., <a href="https://arxiv.org/abs/2506.04788" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.01-red" alt="arXiv Badge"></a>
+    </li>
+<li><i><b>Browse and Concentrate: Comprehending Multimodal Content via Prior-LLM Context Fusion</b></i>, Wang et al., <a href="https://doi.org/10.18653/v1/2024.acl-long.605" target="_blank"><img src="https://img.shields.io/badge/ACL-2024.08-blue" alt="ACL Badge"></a>
+    <a href="https://github.com/THUNLP-MT/Brote" target="_blank">
+  		<img src="https://img.shields.io/github/stars/THUNLP-MT/Brote.svg?style=social" alt="GitHub stars">
+    </a></li>
+<li><i><b>V2PE: Improving Multimodal Long-Context Capability of Vision-Language Models with Variable Visual Position Encoding</b></i>, Dai et al., <a href="https://arxiv.org/abs/2412.09616" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.12-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/OpenGVLab/V2PE" target="_blank">
+  		<img src="https://img.shields.io/github/stars/OpenGVLab/V2PE.svg?style=social" alt="GitHub stars">
+    </a></li>
+<li><i><b>Flamingo: a Visual Language Model for Few-Shot Learning</b></i>, Alayrac et al., <a href="https://arxiv.org/abs/2204.14198" target="_blank"><img src="https://img.shields.io/badge/NeurIPS-2022.04-blue" alt="NeurIPS Badge"></a>
+    <a href="https://github.com/lucidrains/flamingo-pytorch" target="_blank">
+  		<img src="https://img.shields.io/github/stars/lucidrains/flamingo-pytorch.svg?style=social" alt="GitHub stars">
+    </a></li>
+</ul>
+
+<b>Audio-Visual Context Integration and Processing</b>
+
+<ul>
+<li><i><b>Aligned Better, Listen Better for Audio-Visual Large Language Models</b></i>, Guo et al., <a href="#" target="_blank"><img src="https://img.shields.io/badge/ICLR-2025.01-blue" alt="ICLR Badge"></a>
+    </li>
+<li><i><b>AVicuna: Audio-Visual LLM with Interleaver and Context-Boundary Alignment for Temporal Referential Dialogue</b></i>, Chen et al., <a href="https://arxiv.org/abs/2403.16276" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.03-red" alt="arXiv Badge"></a>
+    </li>
+<li><i><b>SonicVisionLM: Playing Sound with Vision Language Models</b></i>, Xie et al., <a href="https://arxiv.org/abs/2401.04394" target="_blank"><img src="https://img.shields.io/badge/CVPR-2024.01-blue" alt="CVPR Badge"></a>
+    <a href="https://github.com/Yusiissy/SonicVisionLM" target="_blank">
+  		<img src="https://img.shields.io/github/stars/Yusiissy/SonicVisionLM.svg?style=social" alt="GitHub stars">
+    </a></li>
+<li><i><b>SAVEn-Vid: Synergistic Audio-Visual Integration for Enhanced Understanding in Long Video Context</b></i>, Li et al., <a href="https://arxiv.org/abs/2411.16213" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.11-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/LJungang/SAVEn-Vid" target="_blank">
+  		<img src="https://img.shields.io/github/stars/LJungang/SAVEn-Vid.svg?style=social" alt="GitHub stars">
+    </a></li>
+</ul>
+
+
+<b>Multi-Modal Prompt Engineering and Context Design</b>
+<ul>
+<li><i><b>CaMML: Context-Aware Multimodal Learner for Large Models</b></i>, Chen et al., <a href="https://arxiv.org/abs/2404.11406" target="_blank"><img src="https://img.shields.io/badge/ACL-2024.08-blue" alt="ACL Badge"></a>
+    </li>
+<li><i><b>Visual In-Context Learning for Large Vision-Language Models</b></i>, Zhou et al., <a href="#" target="_blank"><img src="https://img.shields.io/badge/ACL-2024.08-blue" alt="ACL Badge"></a>
+    </li>
+<li><i><b>CAMA: Enhancing Multimodal In-Context Learning with Context-Aware Modulated Attention</b></i>, Li et al., <a href="https://arxiv.org/abs/2505.17097" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.05-red" alt="arXiv Badge"></a>
+    </li>
+</ul>
+
+
+<b>CVPR 2024 Vision-Language Advances</b>
+<ul>
+<li><i><b>CogAgent: A Visual Language Model for GUI Agents</b></i>, Various, <a href="#" target="_blank"><img src="https://img.shields.io/badge/CVPR-2024-blue" alt="CVPR Badge"></a>
+    <a href="https://github.com/THUDM/CogAgent" target="_blank">
+  		<img src="https://img.shields.io/github/stars/THUDM/CogAgent.svg?style=social" alt="GitHub stars">
+    </a></li>
+<li><i><b>LISA: Reasoning Segmentation via Large Language Model</b></i>, Various, <a href="#" target="_blank"><img src="https://img.shields.io/badge/CVPR-2024-blue" alt="CVPR Badge"></a>
+    <a href="https://github.com/dvlab-research/LISA" target="_blank">
+  		<img src="https://img.shields.io/github/stars/dvlab-research/LISA.svg?style=social" alt="GitHub stars">
+    </a></li>
+<li><i><b>Reproducible scaling laws for contrastive language-image learning</b></i>, Various, <a href="#" target="_blank"><img src="https://img.shields.io/badge/CVPR-2023-blue" alt="CVPR Badge"></a>
+    <a href="https://github.com/LAION-AI/scaling-laws-openclip" target="_blank">
+  		<img src="https://img.shields.io/github/stars/LAION-AI/scaling-laws-openclip.svg?style=social" alt="GitHub stars">
+    </a></li>
+</ul>
+
+
+<b>Video and Temporal Understanding</b>
+<ul>
+<li><i><b>Video Understanding with Large Language Models: A Survey</b></i>, Various, <a href="https://arxiv.org/abs/2312.17432" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.12-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/yunlong10/Awesome-LLMs-for-Video-Understanding" target="_blank">
+  		<img src="https://img.shields.io/github/stars/yunlong10/Awesome-LLMs-for-Video-Understanding.svg?style=social" alt="GitHub stars">
+    </a></li>
+</ul>
+
 
 ### Structured Data Integration
 
@@ -1165,10 +1183,6 @@ This discipline is foundational for unlocking the full potential of LLMs in prod
     <a href="https://github.com/wangyu-ustc/MemoryLLM" target="_blank">
   		<img src="https://img.shields.io/github/stars/wangyu-ustc/MemoryLLM.svg?style=social" alt="GitHub stars">
     </a></li>
-<li><i><b>Infinite-LLM: Efficient LLM Service for Long Context with DistAttention and Distributed KVCache</b></i>, Anonymous et al., <a href="https://arxiv.org/abs/2401.02669" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.01-red" alt="arXiv Badge"></a>
-    </li>
-<li><i><b>Memory-Augmented Generative Adversarial Transformers</b></i>, Anonymous et al., <a href="https://arxiv.org/abs/2402.19218" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.02-red" alt="arXiv Badge"></a>
-    </li>
 </ul>
 
 
@@ -1191,70 +1205,6 @@ This discipline is foundational for unlocking the full potential of LLMs in prod
     </li>
 <li><i><b>Episodic Memory in AI Agents Poses Risks that Should Be Studied and Mitigated</b></i>, Christiano et al., <a href="https://arxiv.org/abs/2401.11739" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.10-red" alt="arXiv Badge"></a>
     </li>
-<li><i><b>Larimar: Large Language Models with Episodic Memory Control</b></i>, Goyal et al., <a href="https://arxiv.org/abs/2403.11901" target="_blank"><img src="https://img.shields.io/badge/ICML-2024.03-blue" alt="ICML Badge"></a>
-    </li>
-<li><i><b>EM-LLM: Human-like Episodic Memory for Infinite Context LLMs</b></i>, Anonymous et al., <a href="https://arxiv.org/abs/2407.09450" target="_blank"><img src="https://img.shields.io/badge/ICLR-2024.07-blue" alt="ICLR Badge"></a>
-    <a href="https://github.com/em-llm/EM-LLM-model" target="_blank">
-  		<img src="https://img.shields.io/github/stars/em-llm/EM-LLM-model.svg?style=social" alt="GitHub stars">
-    </a></li>
-<li><i><b>Large Language Models with Controllable Working Memory</b></i>, Goyal et al., <a href="https://arxiv.org/abs/2211.05110" target="_blank"><img src="https://img.shields.io/badge/arXiv-2022.11-red" alt="arXiv Badge"></a>
-    </li>
-<li><i><b>Empowering Working Memory for Large Language Model Agents</b></i>, Anonymous et al., <a href="https://arxiv.org/abs/2312.17259" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.12-red" alt="arXiv Badge"></a>
-    </li>
-</ul>
-
-<b>Continual Learning and Memory Consolidation</b>
-<ul>
-<li><i><b>Prediction Error-Driven Memory Consolidation for Continual Learning</b></i>, Anonymous et al., <a href="#" target="_blank"><img src="https://img.shields.io/badge/NeurIPS-2020.11-blue" alt="NeurIPS Badge"></a>
-    </li>
-<li><i><b>Overcoming Catastrophic Forgetting in Continual Learning by Exploring Eigenvalues of Hessian Matrix</b></i>, Anonymous et al., <a href="#" target="_blank"><img src="https://img.shields.io/badge/NeurIPS-2023-blue" alt="NeurIPS Badge"></a>
-    </li>
-<li><i><b>Probabilistic Metaplasticity for Continual Learning with Memristors in Spiking Networks</b></i>, Anonymous et al., <a href="#" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.11-red" alt="arXiv Badge"></a>
-    </li>
-</ul>
-
-<b>Conversational Memory</b>
-<ul>
-<li><i><b>MemoChat: Tuning LLMs to Use Memos for Consistent Long-Range Open-Domain Conversation</b></i>, Anonymous et al., <a href="https://arxiv.org/abs/2308.08239" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.08-red" alt="arXiv Badge"></a>
-    </li>
-<li><i><b>Think-in-Memory: Recalling and Post-thinking Enable LLMs with Long-Term Memory</b></i>, Anonymous et al., <a href="https://arxiv.org/abs/2311.08719" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.11-red" alt="arXiv Badge"></a>
-    </li>
-<li><i><b>Generative Agents: Interactive Simulacra of Human Behavior</b></i>, Park et al., <a href="https://arxiv.org/abs/2304.03442" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.04-red" alt="arXiv Badge"></a>
-    </li>
-<li><i><b>Self-Controlled Memory Framework for Large Language Models</b></i>, Anonymous et al., <a href="https://arxiv.org/abs/2304.13343" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.04-red" alt="arXiv Badge"></a>
-    </li>
-</ul>
-
-<b>Personalization and Memory</b>
-<ul>
-<li><i><b>Personalized LLM Response Generation with Parameterized User Memory Injection</b></i>, Anonymous et al., <a href="https://arxiv.org/abs/2404.03565" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.04-red" alt="arXiv Badge"></a>
-    </li>
-</ul>
-
-<b>Safety and Alignment with Memory</b>
-<ul>
-<li><i><b>Constitutional AI: Harmlessness from AI Feedback</b></i>, Bai et al., <a href="https://arxiv.org/abs/2212.08073" target="_blank"><img src="https://img.shields.io/badge/arXiv-2022.12-red" alt="arXiv Badge"></a>
-    </li>
-<li><i><b>Improving alignment of dialogue agents via targeted human judgements (Sparrow)</b></i>, Glaese et al., <a href="https://arxiv.org/abs/2209.14375" target="_blank"><img src="https://img.shields.io/badge/arXiv-2022.09-red" alt="arXiv Badge"></a>
-    </li>
-</ul>
-
-<b>Tool Integration and Memory</b>
-<ul>
-<li><i><b>WebGPT: Browser-assisted question-answering with human feedback</b></i>, Nakano et al., <a href="https://arxiv.org/abs/2112.09332" target="_blank"><img src="https://img.shields.io/badge/arXiv-2021.12-red" alt="arXiv Badge"></a>
-    </li>
-<li><i><b>ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs</b></i>, Qin et al., <a href="https://arxiv.org/abs/2307.16789" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.07-red" alt="arXiv Badge"></a>
-    </li>
-</ul>
-
-<b>Learning and Reflection</b>
-<ul>
-<li><i><b>Language Models are Few-Shot Learners (GPT-3)</b></i>, Brown et al., <a href="https://arxiv.org/abs/2005.14165" target="_blank"><img src="https://img.shields.io/badge/arXiv-2020.05-red" alt="arXiv Badge"></a>
-    </li>
-<li><i><b>Reflexion: Language Agents with Verbal Reinforcement Learning</b></i>, Shinn et al., <a href="https://arxiv.org/abs/2303.11366" target="_blank"><img src="https://img.shields.io/badge/NeurIPS-2023.03-blue" alt="NeurIPS Badge"></a>
-    <a href="https://github.com/noahshinn/reflexion" target="_blank">
-  		<img src="https://img.shields.io/github/stars/noahshinn/reflexion.svg?style=social" alt="GitHub stars">
-    </a></li>
 </ul>
 
 
