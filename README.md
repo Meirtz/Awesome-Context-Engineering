@@ -601,6 +601,87 @@ This discipline is foundational for unlocking the full potential of LLMs in prod
   		<img src="https://img.shields.io/github/stars/umich-sota/selective_attention.svg?style=social" alt="GitHub stars">
     </a></li>
 </ul>
+<b>Vision-Language Models with Sophisticated Context Understanding</b>
+
+<ul>
+<li><i><b>Towards LLM-Centric Multimodal Fusion: A Survey on Integration Strategies and Techniques</b></i>, An et al., <a href="https://arxiv.org/abs/2506.04788" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.01-red" alt="arXiv Badge"></a>
+    </li>
+<li><i><b>Browse and Concentrate: Comprehending Multimodal Content via Prior-LLM Context Fusion</b></i>, Wang et al., <a href="https://doi.org/10.18653/v1/2024.acl-long.605" target="_blank"><img src="https://img.shields.io/badge/ACL-2024.08-blue" alt="ACL Badge"></a>
+    <a href="https://github.com/THUNLP-MT/Brote" target="_blank">
+  		<img src="https://img.shields.io/github/stars/THUNLP-MT/Brote.svg?style=social" alt="GitHub stars">
+    </a></li>
+<li><i><b>V2PE: Improving Multimodal Long-Context Capability of Vision-Language Models with Variable Visual Position Encoding</b></i>, Dai et al., <a href="https://arxiv.org/abs/2412.09616" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.12-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/OpenGVLab/V2PE" target="_blank">
+  		<img src="https://img.shields.io/github/stars/OpenGVLab/V2PE.svg?style=social" alt="GitHub stars">
+    </a></li>
+<li><i><b>Flamingo: a Visual Language Model for Few-Shot Learning</b></i>, Alayrac et al., <a href="https://arxiv.org/abs/2204.14198" target="_blank"><img src="https://img.shields.io/badge/NeurIPS-2022.04-blue" alt="NeurIPS Badge"></a>
+    <a href="https://github.com/lucidrains/flamingo-pytorch" target="_blank">
+  		<img src="https://img.shields.io/github/stars/lucidrains/flamingo-pytorch.svg?style=social" alt="GitHub stars">
+    </a></li>
+</ul>
+
+
+<b>Audio-Visual Context Integration and Processing</b>
+
+<ul>
+<li><i><b>Aligned Better, Listen Better for Audio-Visual Large Language Models</b></i>, Guo et al., <a href="#" target="_blank"><img src="https://img.shields.io/badge/ICLR-2025.01-blue" alt="ICLR Badge"></a>
+    </li>
+<li><i><b>AVicuna: Audio-Visual LLM with Interleaver and Context-Boundary Alignment for Temporal Referential Dialogue</b></i>, Chen et al., <a href="https://arxiv.org/abs/2403.16276" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.03-red" alt="arXiv Badge"></a>
+    </li>
+<li><i><b>SonicVisionLM: Playing Sound with Vision Language Models</b></i>, Xie et al., <a href="https://arxiv.org/abs/2401.04394" target="_blank"><img src="https://img.shields.io/badge/CVPR-2024.01-blue" alt="CVPR Badge"></a>
+    <a href="https://github.com/Yusiissy/SonicVisionLM" target="_blank">
+  		<img src="https://img.shields.io/github/stars/Yusiissy/SonicVisionLM.svg?style=social" alt="GitHub stars">
+    </a></li>
+<li><i><b>SAVEn-Vid: Synergistic Audio-Visual Integration for Enhanced Understanding in Long Video Context</b></i>, Li et al., <a href="https://arxiv.org/abs/2411.16213" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.11-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/LJungang/SAVEn-Vid" target="_blank">
+  		<img src="https://img.shields.io/github/stars/LJungang/SAVEn-Vid.svg?style=social" alt="GitHub stars">
+    </a></li>
+</ul>
+
+
+
+<b>Multi-Modal Prompt Engineering and Context Design</b>
+
+<ul>
+<li><i><b>CaMML: Context-Aware Multimodal Learner for Large Models</b></i>, Chen et al., <a href="https://arxiv.org/abs/2404.11406" target="_blank"><img src="https://img.shields.io/badge/ACL-2024.08-blue" alt="ACL Badge"></a>
+    </li>
+<li><i><b>Visual In-Context Learning for Large Vision-Language Models</b></i>, Zhou et al., <a href="#" target="_blank"><img src="https://img.shields.io/badge/ACL-2024.08-blue" alt="ACL Badge"></a>
+    </li>
+<li><i><b>CAMA: Enhancing Multimodal In-Context Learning with Context-Aware Modulated Attention</b></i>, Li et al., <a href="https://arxiv.org/abs/2505.17097" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.05-red" alt="arXiv Badge"></a>
+    </li>
+</ul>
+
+
+
+<b>CVPR 2024 Vision-Language Advances</b>
+
+<ul>
+<li><i><b>CogAgent: A Visual Language Model for GUI Agents</b></i>, Various, <a href="#" target="_blank"><img src="https://img.shields.io/badge/CVPR-2024-blue" alt="CVPR Badge"></a>
+    <a href="https://github.com/THUDM/CogAgent" target="_blank">
+  		<img src="https://img.shields.io/github/stars/THUDM/CogAgent.svg?style=social" alt="GitHub stars">
+    </a></li>
+<li><i><b>LISA: Reasoning Segmentation via Large Language Model</b></i>, Various, <a href="#" target="_blank"><img src="https://img.shields.io/badge/CVPR-2024-blue" alt="CVPR Badge"></a>
+    <a href="https://github.com/dvlab-research/LISA" target="_blank">
+  		<img src="https://img.shields.io/github/stars/dvlab-research/LISA.svg?style=social" alt="GitHub stars">
+    </a></li>
+<li><i><b>Reproducible scaling laws for contrastive language-image learning</b></i>, Various, <a href="#" target="_blank"><img src="https://img.shields.io/badge/CVPR-2023-blue" alt="CVPR Badge"></a>
+    <a href="https://github.com/LAION-AI/scaling-laws-openclip" target="_blank">
+  		<img src="https://img.shields.io/github/stars/LAION-AI/scaling-laws-openclip.svg?style=social" alt="GitHub stars">
+    </a></li>
+</ul>
+
+
+
+<b>Video and Temporal Understanding</b>
+
+<ul>
+<li><i><b>Video Understanding with Large Language Models: A Survey</b></i>, Various, <a href="https://arxiv.org/abs/2312.17432" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.12-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/yunlong10/Awesome-LLMs-for-Video-Understanding" target="_blank">
+  		<img src="https://img.shields.io/github/stars/yunlong10/Awesome-LLMs-for-Video-Understanding.svg?style=social" alt="GitHub stars">
+    </a></li>
+</ul>
+
+
 
 ### Structured Data Integration
 
