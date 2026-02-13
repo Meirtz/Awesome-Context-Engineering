@@ -1859,3 +1859,5 @@ This survey builds upon the foundational work of the AI research community. We t
 - **Hugging Face Papers**: https://huggingface.co/papers/2507.13334
 
 This comprehensive survey provides the latest academic insights and theoretical foundations for context engineering in large language models.
+
+- [AgentIndex](https://agentcrawl.dev) - AI agent discovery platform. Search 39,000+ agents across GitHub, npm, PyPI, HuggingFace, and MCP registries. MCP server, A2A protocol, semantic search. [GitHub](https://github.com/agentidx/agentindex)
