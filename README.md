@@ -1309,6 +1309,13 @@ This discipline is foundational for unlocking the full potential of LLMs in prod
     </li>
 </ul>
 
+<b>Memory Interchange Standards</b>
+<ul>
+<li><i><b>PAM (Portable AI Memory): An Open Interchange Format for AI User Memories</b></i>, Daniel Gines, <a href="https://portable-ai-memory.org/spec/v1.0/" target="_blank"><img src="https://img.shields.io/badge/Spec-v1.0-blue" alt="Spec Badge"></a>
+    <a href="https://github.com/portable-ai-memory/python-sdk" target="_blank">
+  		<img src="https://img.shields.io/github/stars/portable-ai-memory/python-sdk.svg?style=social" alt="GitHub stars">
+    </a></li>
+</ul>
 
 <b>Memory-Augmented Neural Networks</b>
 <ul>
