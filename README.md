@@ -462,6 +462,7 @@ This Bayesian formulation enables:
 
 ## 🌐 Related Blogs
 
+- [AnchorBrowser](https://anchorbrowser.io) [![Stars](https://img.shields.io/github/stars/anchorbrowser/anchorbrowser?style=flat-square)](https://github.com/anchorbrowser/anchorbrowser) [![License](https://img.shields.io/github/license/anchorbrowser/anchorbrowser?style=flat-square)](https://github.com/anchorbrowser/anchorbrowser/blob/main/LICENSE) | Cloud browser platform purpose-built for autonomous AI agents
 - [The rise of "context engineering"](https://blog.langchain.com/the-rise-of-context-engineering/)
 - [The New Skill in AI is Not Prompting, It's Context Engineering](https://www.philschmid.de/context-engineering)
 - [davidkimai/Context-Engineering: "Context engineering is the delicate art and science of filling the context window with just the right information for the next step." ](https://github.com/davidkimai/Context-Engineering)
