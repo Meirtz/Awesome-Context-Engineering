@@ -1754,6 +1754,14 @@ This discipline is foundational for unlocking the full potential of LLMs in prod
 <li><i><b>How 100 Enterprise CIOs Are Building and Buying Gen AI in 2025</b></i>, Andreessen Horowitz, <a href="https://a16z.com/ai-enterprise-2025/" target="_blank"><img src="https://img.shields.io/badge/a16z-2025-blue" alt="a16z Badge"></a></li>
 </ul>
 
+<b>Developer Tools with Context Engineering</b>
+<ul>
+<li><i><b>Autohand Code CLI: Autonomous Coding Agent with Semantic Search, Memory, and Context Management</b></i>, Autohand AI, <a href="https://www.autohand.ai/code/" target="_blank"><img src="https://img.shields.io/badge/Tool-2025-green" alt="Tool Badge"></a>
+    <a href="https://github.com/autohandai/code-cli" target="_blank">
+  		<img src="https://img.shields.io/github/stars/autohandai/code-cli.svg?style=social" alt="GitHub stars">
+    </a></li>
+</ul>
+
 ---
 
 ## 🔮 Limitations and Future Directions
