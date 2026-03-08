@@ -1367,6 +1367,12 @@ This discipline is foundational for unlocking the full potential of LLMs in prod
 <ul>
 <li><i><b>Personalized LLM Response Generation with Parameterized User Memory Injection</b></i>, Anonymous et al., <a href="https://arxiv.org/abs/2404.03565" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.04-red" alt="arXiv Badge"></a>
     </li>
+<li><i><b>Soul-Driven Interaction Design: A Position Paper on Declarative Persona Specifications for AI Agents</b></i>, Lee, <a href="https://doi.org/10.5281/zenodo.18678616" target="_blank"><img src="https://img.shields.io/badge/Zenodo-2026.02-blue" alt="Zenodo Badge"></a>
+    </li>
+<li><i><b>Soul Spec — Open Specification for AI Agent Persona Packages</b></i>, ClawSouls, <a href="https://clawsouls.ai/spec" target="_blank"><img src="https://img.shields.io/badge/Spec-v0.4-blue" alt="Spec Badge"></a>
+    <a href="https://github.com/clawsouls/soul-spec-mcp" target="_blank">
+        <img src="https://img.shields.io/github/stars/clawsouls/soul-spec-mcp.svg?style=social" alt="GitHub stars">
+    </a></li>
 </ul>
 
 <b>Safety and Alignment with Memory</b>
