@@ -773,6 +773,29 @@ This discipline is foundational for unlocking the full potential of LLMs in prod
 
 
 
+### Context Management in Production
+
+In the agent era, context engineering increasingly means **runtime context management** rather than only prompt construction. Production systems now rely on compaction, caching, artifact-backed state, and scoped instruction loading to keep long-horizon agents efficient and controllable.
+
+<b>Runtime Context Management Patterns</b>
+<ul>
+<li><i><b>OpenAI Agents Guide</b></i>, OpenAI, <a href="https://platform.openai.com/docs/guides/agents" target="_blank"><img src="https://img.shields.io/badge/OpenAI-2026-blue" alt="OpenAI Badge"></a></li>
+<li><i><b>OpenAI Tools: Conversation State, Prompt Caching, and Compaction</b></i>, OpenAI, <a href="https://developers.openai.com/api/docs/guides/tools" target="_blank"><img src="https://img.shields.io/badge/OpenAI-2026-blue" alt="OpenAI Badge"></a></li>
+<li><i><b>Google ADK: Context Caching and Context Compression</b></i>, Google, <a href="https://google.github.io/adk-docs/" target="_blank"><img src="https://img.shields.io/badge/Google-2026-blue" alt="Google Badge"></a></li>
+<li><i><b>Claude Code Memory and Scoped Project Instructions</b></i>, Anthropic, <a href="https://docs.anthropic.com/en/docs/claude-code/memory" target="_blank"><img src="https://img.shields.io/badge/Anthropic-2026-blue" alt="Anthropic Badge"></a></li>
+<li><i><b>LangChain Deep Agents: Filesystem-Based Context Management</b></i>, LangChain, <a href="https://docs.langchain.com/oss/python/deepagents/overview" target="_blank"><img src="https://img.shields.io/badge/LangChain-2026-blue" alt="LangChain Badge"></a></li>
+</ul>
+
+<b>Production Design Questions</b>
+<ul>
+<li><i><b>When should state stay in the prompt versus move into files, memory stores, or external tools?</b></i></li>
+<li><i><b>How should long-running threads be compacted without losing provenance, instructions, or active plans?</b></i></li>
+<li><i><b>How should project rules be loaded conditionally by path, task, or subagent instead of globally?</b></i></li>
+<li><i><b>How should prompt caching be combined with memory writes and retrieval freshness?</b></i></li>
+</ul>
+
+
+
 ### Structured Data Integration
 
 <b>Knowledge Graph-Enhanced Language Models</b>
@@ -920,6 +943,28 @@ This discipline is foundational for unlocking the full potential of LLMs in prod
 ---
 
 ## 🛠️ Implementation and Challenges
+
+### 0. Agent Harnesses and Runtime Systems
+
+In 2026, many of the most important advances in context engineering no longer live only inside the prompt. They live inside the **agent harness**: the runtime loop that manages plans, subagents, checkpoints, files, approvals, tool execution, and recovery from failure. This is where context engineering becomes agent engineering.
+
+<b>Harness and Runtime Design References</b>
+<ul>
+<li><i><b>Building Effective Agents</b></i>, Anthropic, <a href="https://www.anthropic.com/engineering/building-effective-agents" target="_blank"><img src="https://img.shields.io/badge/Anthropic-2024.12-blue" alt="Anthropic Badge"></a></li>
+<li><i><b>OpenAI Agents Guide</b></i>, OpenAI, <a href="https://platform.openai.com/docs/guides/agents" target="_blank"><img src="https://img.shields.io/badge/OpenAI-2026-blue" alt="OpenAI Badge"></a></li>
+<li><i><b>Google Agent Development Kit (ADK)</b></i>, Google, <a href="https://google.github.io/adk-docs/" target="_blank"><img src="https://img.shields.io/badge/Google-2026-blue" alt="Google Badge"></a></li>
+<li><i><b>LangChain Deep Agents Overview</b></i>, LangChain, <a href="https://docs.langchain.com/oss/python/deepagents/overview" target="_blank"><img src="https://img.shields.io/badge/LangChain-2026-blue" alt="LangChain Badge"></a></li>
+<li><i><b>Microsoft Agent Framework Overview</b></i>, Microsoft, <a href="https://learn.microsoft.com/en-us/agent-framework/user-guide/overview" target="_blank"><img src="https://img.shields.io/badge/Microsoft-2026-blue" alt="Microsoft Badge"></a></li>
+</ul>
+
+<b>Core Runtime Concerns</b>
+<ul>
+<li><i><b>Planning and decomposition</b></i>: how long tasks are split into manageable units</li>
+<li><i><b>Durable execution</b></i>: how agent state is checkpointed, resumed, or replayed</li>
+<li><i><b>Context isolation</b></i>: how subagents and tools avoid polluting each other's working state</li>
+<li><i><b>Sandboxing and artifacts</b></i>: how file systems, shells, browsers, and outputs become part of the context pipeline</li>
+<li><i><b>Human approvals and interrupts</b></i>: how production agents remain controllable during risky or long-running actions</li>
+</ul>
 
 ### 1. Retrieval-Augmented Generation (RAG)
 
@@ -1329,6 +1374,34 @@ This discipline is foundational for unlocking the full potential of LLMs in prod
 
 
 ### 2. Memory Systems
+
+#### Runtime Memory Design Patterns
+
+Modern memory systems are no longer a single retrieval store. Production agents increasingly separate:
+
+- **Session / thread state** for active work in progress
+- **Long-term semantic memory** for user or project facts
+- **Episodic memory** for trajectories, past actions, and reusable experiences
+- **Procedural memory** for learned workflows, instructions, and stable operating preferences
+
+<b>Memory Design References</b>
+<ul>
+<li><i><b>LangGraph Memory Overview</b></i>, LangChain, <a href="https://docs.langchain.com/oss/javascript/langgraph/memory" target="_blank"><img src="https://img.shields.io/badge/LangChain-2026-blue" alt="LangChain Badge"></a></li>
+<li><i><b>Letta Memory Blocks</b></i>, Letta, <a href="https://docs.letta.com/guides/core-concepts/memory/memory-blocks" target="_blank"><img src="https://img.shields.io/badge/Letta-2026-blue" alt="Letta Badge"></a></li>
+<li><i><b>Claude Code Memory</b></i>, Anthropic, <a href="https://docs.anthropic.com/en/docs/claude-code/memory" target="_blank"><img src="https://img.shields.io/badge/Anthropic-2026-blue" alt="Anthropic Badge"></a></li>
+</ul>
+
+#### Project Memory and Instruction Artifacts
+
+Coding agents have made project memory concrete. In practice, memory now often lives in artifacts such as repository instruction files, scoped rules, reusable skills, and long-lived project notes rather than only in vector stores.
+
+<b>Project Memory References</b>
+<ul>
+<li><i><b>Introducing Codex</b></i>, OpenAI, <a href="https://openai.com/index/introducing-codex/" target="_blank"><img src="https://img.shields.io/badge/OpenAI-2025.05-blue" alt="OpenAI Badge"></a></li>
+<li><i><b>Claude Code Memory</b></i>, Anthropic, <a href="https://docs.anthropic.com/en/docs/claude-code/memory" target="_blank"><img src="https://img.shields.io/badge/Anthropic-2026-blue" alt="Anthropic Badge"></a></li>
+<li><i><b>Claude Code Subagents</b></i>, Anthropic, <a href="https://docs.anthropic.com/en/docs/claude-code/sub-agents" target="_blank"><img src="https://img.shields.io/badge/Anthropic-2026-blue" alt="Anthropic Badge"></a></li>
+<li><i><b>LangChain Deep Agents Overview</b></i>, LangChain, <a href="https://docs.langchain.com/oss/python/deepagents/overview" target="_blank"><img src="https://img.shields.io/badge/LangChain-2026-blue" alt="LangChain Badge"></a></li>
+</ul>
 
 <b>Persistent Memory Architecture</b>
 <ul>
