@@ -19,7 +19,7 @@
 
 > 📄 **Our comprehensive survey paper on Context Engineering is now published!** Check out our latest academic insights and theoretical foundations.
 
-A comprehensive survey and collection of resources on **Context Engineering** - the evolution from static prompting to dynamic, context-aware AI systems.
+A comprehensive survey and collection of resources on **Context Engineering** - the evolution from static prompting to dynamic, context-aware AI systems, and increasingly to **agent runtimes, memory systems, protocols, coding agents, and observability stacks**.
 
 ## 📧 Contact
 
@@ -48,6 +48,34 @@ This repository serves as a comprehensive survey of context engineering techniqu
 
 ---
 
+## 🧭 2026 Agent Era Update
+
+### From Context Engineering to Agent Engineering
+
+As of **March 2026**, context engineering remains a useful and necessary concept, but it is no longer the whole story. The center of gravity has shifted from "how to pack the best prompt" to **how agent systems manage runtime state, memory, tools, protocols, approvals, and long-horizon execution**. In practice, context engineering now sits inside a broader stack that also includes **agent harnesses**, **interoperability protocols**, **project memory for coding agents**, and **trace-first observability**.
+
+### What This Repository Now Covers
+
+This repository still preserves its original survey structure on long context, RAG, memory, agent communication, tool use, evaluation, and applications. At the same time, this README is being reorganized to better reflect the **agent era** through additional coverage of:
+
+- **Agent harnesses and runtime systems** for planning, subagents, checkpoints, sandboxes, and human approval loops
+- **Context management in production** through compaction, caching, artifact-backed context, and scoped instruction loading
+- **Memory artifacts and portability** including persistent memory, memory interchange formats, persona packaging, and project memory
+- **Open protocols** such as MCP, A2A, AG-UI, ACP, and portable agent schemas
+- **Coding agents and computer use** as the most visible production setting for context engineering today
+- **Evaluation, observability, and telemetry** for long-running agent systems rather than only static benchmarks
+
+### Reading Guide for 2026 Topics
+
+Readers primarily interested in the 2026 shift should jump to the expanded sections on:
+
+- **Agent harnesses and runtime systems**, inspired by [Anthropic's effective agents guide](https://www.anthropic.com/engineering/building-effective-agents), [OpenAI's Agents and Tools documentation](https://platform.openai.com/docs/guides/agents), [Google ADK](https://google.github.io/adk-docs/), and [LangChain Deep Agents](https://docs.langchain.com/oss/python/deepagents/overview)
+- **Open protocols and interoperability**, including [Model Context Protocol](https://modelcontextprotocol.io/specification/2025-06-18), [A2A](https://a2a-protocol.org/latest/), [AG-UI](https://docs.ag-ui.com/), and [AgentSchema](https://microsoft.github.io/AgentSchema/)
+- **Coding agents and project memory**, including [OpenAI Codex](https://openai.com/index/introducing-codex/), [Claude Code memory](https://docs.anthropic.com/en/docs/claude-code/memory), and [Letta memory blocks](https://docs.letta.com/guides/core-concepts/memory/memory-blocks)
+- **Evaluation and observability**, including [LangSmith observability](https://docs.langchain.com/langsmith/observability-quickstart) and [OpenTelemetry semantic conventions for GenAI](https://opentelemetry.io/docs/specs/semconv/gen-ai/)
+
+---
+
 ## 📚 Table of Contents
 
 - [Awesome Context Engineering](#awesome-context-engineering)
@@ -55,6 +83,10 @@ This repository serves as a comprehensive survey of context engineering techniqu
   - [📧 Contact](#-contact)
   - [📰 News](#-news)
   - [🎯 Introduction](#-introduction)
+  - [🧭 2026 Agent Era Update](#-2026-agent-era-update)
+    - [From Context Engineering to Agent Engineering](#from-context-engineering-to-agent-engineering)
+    - [What This Repository Now Covers](#what-this-repository-now-covers)
+    - [Reading Guide for 2026 Topics](#reading-guide-for-2026-topics)
   - [📚 Table of Contents](#-table-of-contents)
   - [🔗 Related Survey](#-related-survey)
   - [🏗️ Definition of Context Engineering](#️-definition-of-context-engineering)
@@ -87,19 +119,28 @@ This repository serves as a comprehensive survey of context engineering techniqu
     - [5. The Future of AI System Architecture](#5-the-future-of-ai-system-architecture)
   - [🔧 Components, Techniques and Architectures](#-components-techniques-and-architectures)
     - [Context Scaling](#context-scaling)
+    - [Context Management in Production](#context-management-in-production)
     - [Structured Data Integration](#structured-data-integration)
     - [Self-Generated Context](#self-generated-context)
   - [🛠️ Implementation and Challenges](#️-implementation-and-challenges)
+    - [0. Agent Harnesses and Runtime Systems](#0-agent-harnesses-and-runtime-systems)
     - [1. Retrieval-Augmented Generation (RAG)](#1-retrieval-augmented-generation-rag)
     - [2. Memory Systems](#2-memory-systems)
+      - [Runtime Memory Design Patterns](#runtime-memory-design-patterns)
+      - [Project Memory and Instruction Artifacts](#project-memory-and-instruction-artifacts)
     - [3. Agent Communication](#3-agent-communication)
+      - [Open Agent Protocols and Interoperability](#open-agent-protocols-and-interoperability)
     - [4. Tool Use and Function Calling](#4-tool-use-and-function-calling)
+      - [Hosted Agent Tools and Computer Use](#hosted-agent-tools-and-computer-use)
   - [📊 Evaluation Paradigms for Context-Driven Systems](#-evaluation-paradigms-for-context-driven-systems)
     - [Context Quality Assessment](#context-quality-assessment)
     - [Benchmarking Context Engineering](#benchmarking-context-engineering)
+    - [Agent Observability and Telemetry](#agent-observability-and-telemetry)
   - [🚀 Applications and Systems](#-applications-and-systems)
     - [Complex Research Systems](#complex-research-systems)
     - [Production Systems](#production-systems)
+      - [Coding Agents and Project Memory](#coding-agents-and-project-memory)
+      - [Platform Stacks and Hosted Agent Runtimes](#platform-stacks-and-hosted-agent-runtimes)
   - [🔮 Limitations and Future Directions](#-limitations-and-future-directions)
     - [Current Limitations](#current-limitations)
     - [Future Research Directions](#future-research-directions)
