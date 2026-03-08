@@ -31,3 +31,6 @@ yarn-error.log*
 *.tmp
 *.temp
 .cache/
+
+latex/
+agent-era-2026-03/
