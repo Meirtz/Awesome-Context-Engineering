@@ -1829,6 +1829,18 @@ The frontier of tool use has shifted from static function schemas to **hosted to
     </a></li>
 </ul>
 
+### Agent Observability and Telemetry
+
+Long-running agent systems need more than offline benchmark scores. They require trace-level visibility into plans, tool calls, memory reads and writes, approvals, retries, and failure modes. Observability is increasingly the verification layer for context engineering in production.
+
+<b>Observability and Telemetry References</b>
+<ul>
+<li><i><b>LangSmith Observability Quickstart</b></i>, LangChain, <a href="https://docs.langchain.com/langsmith/observability-quickstart" target="_blank"><img src="https://img.shields.io/badge/LangChain-2026-blue" alt="LangChain Badge"></a></li>
+<li><i><b>OpenTelemetry Semantic Conventions for Generative AI</b></i>, OpenTelemetry, <a href="https://opentelemetry.io/docs/specs/semconv/gen-ai/" target="_blank"><img src="https://img.shields.io/badge/OpenTelemetry-2026-blue" alt="OpenTelemetry Badge"></a></li>
+<li><i><b>Google ADK Evaluation and Observability</b></i>, Google, <a href="https://google.github.io/adk-docs/" target="_blank"><img src="https://img.shields.io/badge/Google-2026-blue" alt="Google Badge"></a></li>
+<li><i><b>OpenAI Agents and Tools</b></i>, OpenAI, <a href="https://platform.openai.com/docs/guides/agents" target="_blank"><img src="https://img.shields.io/badge/OpenAI-2026-blue" alt="OpenAI Badge"></a></li>
+</ul>
+
 
 ---
 
@@ -1919,6 +1931,30 @@ The frontier of tool use has shifted from static function schemas to **hosted to
     <a href="https://github.com/autohandai/code-cli" target="_blank">
   		<img src="https://img.shields.io/github/stars/autohandai/code-cli.svg?style=social" alt="GitHub stars">
     </a></li>
+</ul>
+
+#### Coding Agents and Project Memory
+
+Coding agents are one of the clearest production settings in which context engineering becomes agent engineering. Here, context is no longer just a prompt: it becomes repository instructions, project memory, task plans, file diffs, test results, and tool traces.
+
+<ul>
+<li><i><b>Introducing Codex</b></i>, OpenAI, <a href="https://openai.com/index/introducing-codex/" target="_blank"><img src="https://img.shields.io/badge/OpenAI-2025.05-blue" alt="OpenAI Badge"></a></li>
+<li><i><b>Claude Code Memory</b></i>, Anthropic, <a href="https://docs.anthropic.com/en/docs/claude-code/memory" target="_blank"><img src="https://img.shields.io/badge/Anthropic-2026-blue" alt="Anthropic Badge"></a></li>
+<li><i><b>Claude Code Subagents</b></i>, Anthropic, <a href="https://docs.anthropic.com/en/docs/claude-code/sub-agents" target="_blank"><img src="https://img.shields.io/badge/Anthropic-2026-blue" alt="Anthropic Badge"></a></li>
+<li><i><b>Letta Memory Blocks</b></i>, Letta, <a href="https://docs.letta.com/guides/core-concepts/memory/memory-blocks" target="_blank"><img src="https://img.shields.io/badge/Letta-2026-blue" alt="Letta Badge"></a></li>
+<li><i><b>LangChain Deep Agents</b></i>, LangChain, <a href="https://docs.langchain.com/oss/python/deepagents/overview" target="_blank"><img src="https://img.shields.io/badge/LangChain-2026-blue" alt="LangChain Badge"></a></li>
+</ul>
+
+#### Platform Stacks and Hosted Agent Runtimes
+
+The production ecosystem is increasingly organized around full agent stacks rather than isolated models or prompts. These stacks combine tools, memory, runtime orchestration, sessions, observability, and interoperability in a single platform surface.
+
+<ul>
+<li><i><b>OpenAI Agents Guide</b></i>, OpenAI, <a href="https://platform.openai.com/docs/guides/agents" target="_blank"><img src="https://img.shields.io/badge/OpenAI-2026-blue" alt="OpenAI Badge"></a></li>
+<li><i><b>Google Agent Development Kit (ADK)</b></i>, Google, <a href="https://google.github.io/adk-docs/" target="_blank"><img src="https://img.shields.io/badge/Google-2026-blue" alt="Google Badge"></a></li>
+<li><i><b>Vertex AI Agent Engine</b></i>, Google, <a href="https://cloud.google.com/vertex-ai/generative-ai/docs/agent-engine/overview" target="_blank"><img src="https://img.shields.io/badge/Google-2026-blue" alt="Google Badge"></a></li>
+<li><i><b>LangGraph Memory Overview</b></i>, LangChain, <a href="https://docs.langchain.com/oss/javascript/langgraph/memory" target="_blank"><img src="https://img.shields.io/badge/LangChain-2026-blue" alt="LangChain Badge"></a></li>
+<li><i><b>Microsoft Agent Framework</b></i>, Microsoft, <a href="https://learn.microsoft.com/en-us/agent-framework/user-guide/overview" target="_blank"><img src="https://img.shields.io/badge/Microsoft-2026-blue" alt="Microsoft Badge"></a></li>
 </ul>
 
 ---
