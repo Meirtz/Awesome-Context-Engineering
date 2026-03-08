@@ -1546,6 +1546,25 @@ Coding agents have made project memory concrete. In practice, memory now often l
 
 
 
+#### Open Agent Protocols and Interoperability
+
+Open protocols have become a major part of agent engineering. In practice, modern agent systems increasingly separate:
+
+- **agent-to-tool protocols** such as MCP
+- **agent-to-agent protocols** such as A2A and ACP-style remote invocation
+- **agent-to-UI protocols** such as AG-UI
+- **portable agent definitions** such as AgentSchema
+
+<b>Official Protocol and Interoperability References</b>
+<ul>
+<li><i><b>Model Context Protocol Specification</b></i>, MCP Working Group, <a href="https://modelcontextprotocol.io/specification/2025-06-18" target="_blank"><img src="https://img.shields.io/badge/Spec-2025.06-blue" alt="Spec Badge"></a></li>
+<li><i><b>Model Context Protocol Architecture</b></i>, MCP Working Group, <a href="https://modelcontextprotocol.io/docs/learn/architecture" target="_blank"><img src="https://img.shields.io/badge/Docs-2026-blue" alt="Docs Badge"></a></li>
+<li><i><b>Agent2Agent Protocol (A2A)</b></i>, Google, <a href="https://a2a-protocol.org/latest/" target="_blank"><img src="https://img.shields.io/badge/Protocol-2026-blue" alt="Protocol Badge"></a></li>
+<li><i><b>AG-UI Documentation</b></i>, CopilotKit Team, <a href="https://docs.ag-ui.com/" target="_blank"><img src="https://img.shields.io/badge/Protocol-2026-blue" alt="Protocol Badge"></a></li>
+<li><i><b>ACP Connect</b></i>, AGNTCY, <a href="https://docs.agntcy.org/syntactic/connect/" target="_blank"><img src="https://img.shields.io/badge/Protocol-2026-blue" alt="Protocol Badge"></a></li>
+<li><i><b>AgentSchema</b></i>, Microsoft, <a href="https://microsoft.github.io/AgentSchema/" target="_blank"><img src="https://img.shields.io/badge/Schema-2026-blue" alt="Schema Badge"></a></li>
+</ul>
+
 <b>Agent Interoperability Protocols</b>
 
 <ul>
@@ -1684,6 +1703,19 @@ Coding agents have made project memory concrete. In practice, memory now often l
 
 
 ### 4. Tool Use and Function Calling
+
+#### Hosted Agent Tools and Computer Use
+
+The frontier of tool use has shifted from static function schemas to **hosted tool runtimes**, **remote servers**, and **computer use interfaces**. In the agent era, tools are increasingly connected through platform-managed execution, approval flows, and UI-aware control loops rather than single-shot JSON calls.
+
+<b>Official Tooling and Computer Use References</b>
+<ul>
+<li><i><b>OpenAI Tools Guide</b></i>, OpenAI, <a href="https://developers.openai.com/api/docs/guides/tools" target="_blank"><img src="https://img.shields.io/badge/OpenAI-2026-blue" alt="OpenAI Badge"></a></li>
+<li><i><b>Introducing Codex</b></i>, OpenAI, <a href="https://openai.com/index/introducing-codex/" target="_blank"><img src="https://img.shields.io/badge/OpenAI-2025.05-blue" alt="OpenAI Badge"></a></li>
+<li><i><b>Computer Use for Claude 3.5</b></i>, Anthropic, <a href="https://www.anthropic.com/news/3-5-models-and-computer-use" target="_blank"><img src="https://img.shields.io/badge/Anthropic-2024.10-blue" alt="Anthropic Badge"></a></li>
+<li><i><b>Google Vertex AI Agent Engine</b></i>, Google, <a href="https://cloud.google.com/vertex-ai/generative-ai/docs/agent-engine/overview" target="_blank"><img src="https://img.shields.io/badge/Google-2026-blue" alt="Google Badge"></a></li>
+<li><i><b>OSWorld</b></i>, Xie et al., <a href="https://os-world.github.io/" target="_blank"><img src="https://img.shields.io/badge/Benchmark-2026-orange" alt="Benchmark Badge"></a></li>
+</ul>
 
 <b>Foundational Tool Learning</b>
 <ul>
