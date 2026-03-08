@@ -19,7 +19,7 @@
 
 > 📄 **Our comprehensive survey paper on Context Engineering is now published!** Check out our latest academic insights and theoretical foundations.
 
-A comprehensive survey and collection of resources on **Context Engineering** - the evolution from static prompting to dynamic, context-aware AI systems.
+A comprehensive survey and collection of resources on **Context Engineering** - the evolution from static prompting to dynamic, context-aware AI systems, and increasingly to **agent runtimes, memory systems, protocols, coding agents, and observability stacks**.
 
 ## 📧 Contact
 
@@ -48,6 +48,34 @@ This repository serves as a comprehensive survey of context engineering techniqu
 
 ---
 
+## 🧭 2026 Agent Era Update
+
+### From Context Engineering to Agent Engineering
+
+As of **March 2026**, context engineering remains a useful and necessary concept, but it is no longer the whole story. The center of gravity has shifted from "how to pack the best prompt" to **how agent systems manage runtime state, memory, tools, protocols, approvals, and long-horizon execution**. In practice, context engineering now sits inside a broader stack that also includes **agent harnesses**, **interoperability protocols**, **project memory for coding agents**, and **trace-first observability**.
+
+### What This Repository Now Covers
+
+This repository still preserves its original survey structure on long context, RAG, memory, agent communication, tool use, evaluation, and applications. At the same time, this README is being reorganized to better reflect the **agent era** through additional coverage of:
+
+- **Agent harnesses and runtime systems** for planning, subagents, checkpoints, sandboxes, and human approval loops
+- **Context management in production** through compaction, caching, artifact-backed context, and scoped instruction loading
+- **Memory artifacts and portability** including persistent memory, memory interchange formats, persona packaging, and project memory
+- **Open protocols** such as MCP, A2A, AG-UI, ACP, and portable agent schemas
+- **Coding agents and computer use** as the most visible production setting for context engineering today
+- **Evaluation, observability, and telemetry** for long-running agent systems rather than only static benchmarks
+
+### Reading Guide for 2026 Topics
+
+Readers primarily interested in the 2026 shift should jump to the expanded sections on:
+
+- **Agent harnesses and runtime systems**, inspired by [Anthropic's effective agents guide](https://www.anthropic.com/engineering/building-effective-agents), [OpenAI's Agents and Tools documentation](https://platform.openai.com/docs/guides/agents), [Google ADK](https://google.github.io/adk-docs/), and [LangChain Deep Agents](https://docs.langchain.com/oss/python/deepagents/overview)
+- **Open protocols and interoperability**, including [Model Context Protocol](https://modelcontextprotocol.io/specification/2025-06-18), [A2A](https://a2a-protocol.org/latest/), [AG-UI](https://docs.ag-ui.com/), and [AgentSchema](https://microsoft.github.io/AgentSchema/)
+- **Coding agents and project memory**, including [OpenAI Codex](https://openai.com/index/introducing-codex/), [Claude Code memory](https://docs.anthropic.com/en/docs/claude-code/memory), and [Letta memory blocks](https://docs.letta.com/guides/core-concepts/memory/memory-blocks)
+- **Evaluation and observability**, including [LangSmith observability](https://docs.langchain.com/langsmith/observability-quickstart) and [OpenTelemetry semantic conventions for GenAI](https://opentelemetry.io/docs/specs/semconv/gen-ai/)
+
+---
+
 ## 📚 Table of Contents
 
 - [Awesome Context Engineering](#awesome-context-engineering)
@@ -55,6 +83,10 @@ This repository serves as a comprehensive survey of context engineering techniqu
   - [📧 Contact](#-contact)
   - [📰 News](#-news)
   - [🎯 Introduction](#-introduction)
+  - [🧭 2026 Agent Era Update](#-2026-agent-era-update)
+    - [From Context Engineering to Agent Engineering](#from-context-engineering-to-agent-engineering)
+    - [What This Repository Now Covers](#what-this-repository-now-covers)
+    - [Reading Guide for 2026 Topics](#reading-guide-for-2026-topics)
   - [📚 Table of Contents](#-table-of-contents)
   - [🔗 Related Survey](#-related-survey)
   - [🏗️ Definition of Context Engineering](#️-definition-of-context-engineering)
@@ -87,19 +119,28 @@ This repository serves as a comprehensive survey of context engineering techniqu
     - [5. The Future of AI System Architecture](#5-the-future-of-ai-system-architecture)
   - [🔧 Components, Techniques and Architectures](#-components-techniques-and-architectures)
     - [Context Scaling](#context-scaling)
+    - [Context Management in Production](#context-management-in-production)
     - [Structured Data Integration](#structured-data-integration)
     - [Self-Generated Context](#self-generated-context)
   - [🛠️ Implementation and Challenges](#️-implementation-and-challenges)
+    - [0. Agent Harnesses and Runtime Systems](#0-agent-harnesses-and-runtime-systems)
     - [1. Retrieval-Augmented Generation (RAG)](#1-retrieval-augmented-generation-rag)
     - [2. Memory Systems](#2-memory-systems)
+      - [Runtime Memory Design Patterns](#runtime-memory-design-patterns)
+      - [Project Memory and Instruction Artifacts](#project-memory-and-instruction-artifacts)
     - [3. Agent Communication](#3-agent-communication)
+      - [Open Agent Protocols and Interoperability](#open-agent-protocols-and-interoperability)
     - [4. Tool Use and Function Calling](#4-tool-use-and-function-calling)
+      - [Hosted Agent Tools and Computer Use](#hosted-agent-tools-and-computer-use)
   - [📊 Evaluation Paradigms for Context-Driven Systems](#-evaluation-paradigms-for-context-driven-systems)
     - [Context Quality Assessment](#context-quality-assessment)
     - [Benchmarking Context Engineering](#benchmarking-context-engineering)
+    - [Agent Observability and Telemetry](#agent-observability-and-telemetry)
   - [🚀 Applications and Systems](#-applications-and-systems)
     - [Complex Research Systems](#complex-research-systems)
     - [Production Systems](#production-systems)
+      - [Coding Agents and Project Memory](#coding-agents-and-project-memory)
+      - [Platform Stacks and Hosted Agent Runtimes](#platform-stacks-and-hosted-agent-runtimes)
   - [🔮 Limitations and Future Directions](#-limitations-and-future-directions)
     - [Current Limitations](#current-limitations)
     - [Future Research Directions](#future-research-directions)
@@ -732,6 +773,29 @@ This discipline is foundational for unlocking the full potential of LLMs in prod
 
 
 
+### Context Management in Production
+
+In the agent era, context engineering increasingly means **runtime context management** rather than only prompt construction. Production systems now rely on compaction, caching, artifact-backed state, and scoped instruction loading to keep long-horizon agents efficient and controllable.
+
+<b>Runtime Context Management Patterns</b>
+<ul>
+<li><i><b>OpenAI Agents Guide</b></i>, OpenAI, <a href="https://platform.openai.com/docs/guides/agents" target="_blank"><img src="https://img.shields.io/badge/OpenAI-2026-blue" alt="OpenAI Badge"></a></li>
+<li><i><b>OpenAI Tools: Conversation State, Prompt Caching, and Compaction</b></i>, OpenAI, <a href="https://developers.openai.com/api/docs/guides/tools" target="_blank"><img src="https://img.shields.io/badge/OpenAI-2026-blue" alt="OpenAI Badge"></a></li>
+<li><i><b>Google ADK: Context Caching and Context Compression</b></i>, Google, <a href="https://google.github.io/adk-docs/" target="_blank"><img src="https://img.shields.io/badge/Google-2026-blue" alt="Google Badge"></a></li>
+<li><i><b>Claude Code Memory and Scoped Project Instructions</b></i>, Anthropic, <a href="https://docs.anthropic.com/en/docs/claude-code/memory" target="_blank"><img src="https://img.shields.io/badge/Anthropic-2026-blue" alt="Anthropic Badge"></a></li>
+<li><i><b>LangChain Deep Agents: Filesystem-Based Context Management</b></i>, LangChain, <a href="https://docs.langchain.com/oss/python/deepagents/overview" target="_blank"><img src="https://img.shields.io/badge/LangChain-2026-blue" alt="LangChain Badge"></a></li>
+</ul>
+
+<b>Production Design Questions</b>
+<ul>
+<li><i><b>When should state stay in the prompt versus move into files, memory stores, or external tools?</b></i></li>
+<li><i><b>How should long-running threads be compacted without losing provenance, instructions, or active plans?</b></i></li>
+<li><i><b>How should project rules be loaded conditionally by path, task, or subagent instead of globally?</b></i></li>
+<li><i><b>How should prompt caching be combined with memory writes and retrieval freshness?</b></i></li>
+</ul>
+
+
+
 ### Structured Data Integration
 
 <b>Knowledge Graph-Enhanced Language Models</b>
@@ -879,6 +943,28 @@ This discipline is foundational for unlocking the full potential of LLMs in prod
 ---
 
 ## 🛠️ Implementation and Challenges
+
+### 0. Agent Harnesses and Runtime Systems
+
+In 2026, many of the most important advances in context engineering no longer live only inside the prompt. They live inside the **agent harness**: the runtime loop that manages plans, subagents, checkpoints, files, approvals, tool execution, and recovery from failure. This is where context engineering becomes agent engineering.
+
+<b>Harness and Runtime Design References</b>
+<ul>
+<li><i><b>Building Effective Agents</b></i>, Anthropic, <a href="https://www.anthropic.com/engineering/building-effective-agents" target="_blank"><img src="https://img.shields.io/badge/Anthropic-2024.12-blue" alt="Anthropic Badge"></a></li>
+<li><i><b>OpenAI Agents Guide</b></i>, OpenAI, <a href="https://platform.openai.com/docs/guides/agents" target="_blank"><img src="https://img.shields.io/badge/OpenAI-2026-blue" alt="OpenAI Badge"></a></li>
+<li><i><b>Google Agent Development Kit (ADK)</b></i>, Google, <a href="https://google.github.io/adk-docs/" target="_blank"><img src="https://img.shields.io/badge/Google-2026-blue" alt="Google Badge"></a></li>
+<li><i><b>LangChain Deep Agents Overview</b></i>, LangChain, <a href="https://docs.langchain.com/oss/python/deepagents/overview" target="_blank"><img src="https://img.shields.io/badge/LangChain-2026-blue" alt="LangChain Badge"></a></li>
+<li><i><b>Microsoft Agent Framework Overview</b></i>, Microsoft, <a href="https://learn.microsoft.com/en-us/agent-framework/user-guide/overview" target="_blank"><img src="https://img.shields.io/badge/Microsoft-2026-blue" alt="Microsoft Badge"></a></li>
+</ul>
+
+<b>Core Runtime Concerns</b>
+<ul>
+<li><i><b>Planning and decomposition</b></i>: how long tasks are split into manageable units</li>
+<li><i><b>Durable execution</b></i>: how agent state is checkpointed, resumed, or replayed</li>
+<li><i><b>Context isolation</b></i>: how subagents and tools avoid polluting each other's working state</li>
+<li><i><b>Sandboxing and artifacts</b></i>: how file systems, shells, browsers, and outputs become part of the context pipeline</li>
+<li><i><b>Human approvals and interrupts</b></i>: how production agents remain controllable during risky or long-running actions</li>
+</ul>
 
 ### 1. Retrieval-Augmented Generation (RAG)
 
@@ -1289,6 +1375,34 @@ This discipline is foundational for unlocking the full potential of LLMs in prod
 
 ### 2. Memory Systems
 
+#### Runtime Memory Design Patterns
+
+Modern memory systems are no longer a single retrieval store. Production agents increasingly separate:
+
+- **Session / thread state** for active work in progress
+- **Long-term semantic memory** for user or project facts
+- **Episodic memory** for trajectories, past actions, and reusable experiences
+- **Procedural memory** for learned workflows, instructions, and stable operating preferences
+
+<b>Memory Design References</b>
+<ul>
+<li><i><b>LangGraph Memory Overview</b></i>, LangChain, <a href="https://docs.langchain.com/oss/javascript/langgraph/memory" target="_blank"><img src="https://img.shields.io/badge/LangChain-2026-blue" alt="LangChain Badge"></a></li>
+<li><i><b>Letta Memory Blocks</b></i>, Letta, <a href="https://docs.letta.com/guides/core-concepts/memory/memory-blocks" target="_blank"><img src="https://img.shields.io/badge/Letta-2026-blue" alt="Letta Badge"></a></li>
+<li><i><b>Claude Code Memory</b></i>, Anthropic, <a href="https://docs.anthropic.com/en/docs/claude-code/memory" target="_blank"><img src="https://img.shields.io/badge/Anthropic-2026-blue" alt="Anthropic Badge"></a></li>
+</ul>
+
+#### Project Memory and Instruction Artifacts
+
+Coding agents have made project memory concrete. In practice, memory now often lives in artifacts such as repository instruction files, scoped rules, reusable skills, and long-lived project notes rather than only in vector stores.
+
+<b>Project Memory References</b>
+<ul>
+<li><i><b>Introducing Codex</b></i>, OpenAI, <a href="https://openai.com/index/introducing-codex/" target="_blank"><img src="https://img.shields.io/badge/OpenAI-2025.05-blue" alt="OpenAI Badge"></a></li>
+<li><i><b>Claude Code Memory</b></i>, Anthropic, <a href="https://docs.anthropic.com/en/docs/claude-code/memory" target="_blank"><img src="https://img.shields.io/badge/Anthropic-2026-blue" alt="Anthropic Badge"></a></li>
+<li><i><b>Claude Code Subagents</b></i>, Anthropic, <a href="https://docs.anthropic.com/en/docs/claude-code/sub-agents" target="_blank"><img src="https://img.shields.io/badge/Anthropic-2026-blue" alt="Anthropic Badge"></a></li>
+<li><i><b>LangChain Deep Agents Overview</b></i>, LangChain, <a href="https://docs.langchain.com/oss/python/deepagents/overview" target="_blank"><img src="https://img.shields.io/badge/LangChain-2026-blue" alt="LangChain Badge"></a></li>
+</ul>
+
 <b>Persistent Memory Architecture</b>
 <ul>
 <li><i><b>MemGPT: Towards LLMs as Operating Systems</b></i>, Packer et al., <a href="https://arxiv.org/abs/2310.08560" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.10-red" alt="arXiv Badge"></a>
@@ -1432,6 +1546,25 @@ This discipline is foundational for unlocking the full potential of LLMs in prod
 
 
 
+#### Open Agent Protocols and Interoperability
+
+Open protocols have become a major part of agent engineering. In practice, modern agent systems increasingly separate:
+
+- **agent-to-tool protocols** such as MCP
+- **agent-to-agent protocols** such as A2A and ACP-style remote invocation
+- **agent-to-UI protocols** such as AG-UI
+- **portable agent definitions** such as AgentSchema
+
+<b>Official Protocol and Interoperability References</b>
+<ul>
+<li><i><b>Model Context Protocol Specification</b></i>, MCP Working Group, <a href="https://modelcontextprotocol.io/specification/2025-06-18" target="_blank"><img src="https://img.shields.io/badge/Spec-2025.06-blue" alt="Spec Badge"></a></li>
+<li><i><b>Model Context Protocol Architecture</b></i>, MCP Working Group, <a href="https://modelcontextprotocol.io/docs/learn/architecture" target="_blank"><img src="https://img.shields.io/badge/Docs-2026-blue" alt="Docs Badge"></a></li>
+<li><i><b>Agent2Agent Protocol (A2A)</b></i>, Google, <a href="https://a2a-protocol.org/latest/" target="_blank"><img src="https://img.shields.io/badge/Protocol-2026-blue" alt="Protocol Badge"></a></li>
+<li><i><b>AG-UI Documentation</b></i>, CopilotKit Team, <a href="https://docs.ag-ui.com/" target="_blank"><img src="https://img.shields.io/badge/Protocol-2026-blue" alt="Protocol Badge"></a></li>
+<li><i><b>ACP Connect</b></i>, AGNTCY, <a href="https://docs.agntcy.org/syntactic/connect/" target="_blank"><img src="https://img.shields.io/badge/Protocol-2026-blue" alt="Protocol Badge"></a></li>
+<li><i><b>AgentSchema</b></i>, Microsoft, <a href="https://microsoft.github.io/AgentSchema/" target="_blank"><img src="https://img.shields.io/badge/Schema-2026-blue" alt="Schema Badge"></a></li>
+</ul>
+
 <b>Agent Interoperability Protocols</b>
 
 <ul>
@@ -1571,6 +1704,19 @@ This discipline is foundational for unlocking the full potential of LLMs in prod
 
 ### 4. Tool Use and Function Calling
 
+#### Hosted Agent Tools and Computer Use
+
+The frontier of tool use has shifted from static function schemas to **hosted tool runtimes**, **remote servers**, and **computer use interfaces**. In the agent era, tools are increasingly connected through platform-managed execution, approval flows, and UI-aware control loops rather than single-shot JSON calls.
+
+<b>Official Tooling and Computer Use References</b>
+<ul>
+<li><i><b>OpenAI Tools Guide</b></i>, OpenAI, <a href="https://developers.openai.com/api/docs/guides/tools" target="_blank"><img src="https://img.shields.io/badge/OpenAI-2026-blue" alt="OpenAI Badge"></a></li>
+<li><i><b>Introducing Codex</b></i>, OpenAI, <a href="https://openai.com/index/introducing-codex/" target="_blank"><img src="https://img.shields.io/badge/OpenAI-2025.05-blue" alt="OpenAI Badge"></a></li>
+<li><i><b>Computer Use for Claude 3.5</b></i>, Anthropic, <a href="https://www.anthropic.com/news/3-5-models-and-computer-use" target="_blank"><img src="https://img.shields.io/badge/Anthropic-2024.10-blue" alt="Anthropic Badge"></a></li>
+<li><i><b>Google Vertex AI Agent Engine</b></i>, Google, <a href="https://cloud.google.com/vertex-ai/generative-ai/docs/agent-engine/overview" target="_blank"><img src="https://img.shields.io/badge/Google-2026-blue" alt="Google Badge"></a></li>
+<li><i><b>OSWorld</b></i>, Xie et al., <a href="https://os-world.github.io/" target="_blank"><img src="https://img.shields.io/badge/Benchmark-2026-orange" alt="Benchmark Badge"></a></li>
+</ul>
+
 <b>Foundational Tool Learning</b>
 <ul>
 <li><i><b>Toolformer: Language Models Can Teach Themselves to Use Tools</b></i>, Schick et al., <a href="https://arxiv.org/abs/2302.04761" target="_blank"><img src="https://img.shields.io/badge/NeurIPS-2023.09-blue" alt="NeurIPS Badge"></a>
@@ -1683,6 +1829,18 @@ This discipline is foundational for unlocking the full potential of LLMs in prod
     </a></li>
 </ul>
 
+### Agent Observability and Telemetry
+
+Long-running agent systems need more than offline benchmark scores. They require trace-level visibility into plans, tool calls, memory reads and writes, approvals, retries, and failure modes. Observability is increasingly the verification layer for context engineering in production.
+
+<b>Observability and Telemetry References</b>
+<ul>
+<li><i><b>LangSmith Observability Quickstart</b></i>, LangChain, <a href="https://docs.langchain.com/langsmith/observability-quickstart" target="_blank"><img src="https://img.shields.io/badge/LangChain-2026-blue" alt="LangChain Badge"></a></li>
+<li><i><b>OpenTelemetry Semantic Conventions for Generative AI</b></i>, OpenTelemetry, <a href="https://opentelemetry.io/docs/specs/semconv/gen-ai/" target="_blank"><img src="https://img.shields.io/badge/OpenTelemetry-2026-blue" alt="OpenTelemetry Badge"></a></li>
+<li><i><b>Google ADK Evaluation and Observability</b></i>, Google, <a href="https://google.github.io/adk-docs/" target="_blank"><img src="https://img.shields.io/badge/Google-2026-blue" alt="Google Badge"></a></li>
+<li><i><b>OpenAI Agents and Tools</b></i>, OpenAI, <a href="https://platform.openai.com/docs/guides/agents" target="_blank"><img src="https://img.shields.io/badge/OpenAI-2026-blue" alt="OpenAI Badge"></a></li>
+</ul>
+
 
 ---
 
@@ -1773,6 +1931,30 @@ This discipline is foundational for unlocking the full potential of LLMs in prod
     <a href="https://github.com/autohandai/code-cli" target="_blank">
   		<img src="https://img.shields.io/github/stars/autohandai/code-cli.svg?style=social" alt="GitHub stars">
     </a></li>
+</ul>
+
+#### Coding Agents and Project Memory
+
+Coding agents are one of the clearest production settings in which context engineering becomes agent engineering. Here, context is no longer just a prompt: it becomes repository instructions, project memory, task plans, file diffs, test results, and tool traces.
+
+<ul>
+<li><i><b>Introducing Codex</b></i>, OpenAI, <a href="https://openai.com/index/introducing-codex/" target="_blank"><img src="https://img.shields.io/badge/OpenAI-2025.05-blue" alt="OpenAI Badge"></a></li>
+<li><i><b>Claude Code Memory</b></i>, Anthropic, <a href="https://docs.anthropic.com/en/docs/claude-code/memory" target="_blank"><img src="https://img.shields.io/badge/Anthropic-2026-blue" alt="Anthropic Badge"></a></li>
+<li><i><b>Claude Code Subagents</b></i>, Anthropic, <a href="https://docs.anthropic.com/en/docs/claude-code/sub-agents" target="_blank"><img src="https://img.shields.io/badge/Anthropic-2026-blue" alt="Anthropic Badge"></a></li>
+<li><i><b>Letta Memory Blocks</b></i>, Letta, <a href="https://docs.letta.com/guides/core-concepts/memory/memory-blocks" target="_blank"><img src="https://img.shields.io/badge/Letta-2026-blue" alt="Letta Badge"></a></li>
+<li><i><b>LangChain Deep Agents</b></i>, LangChain, <a href="https://docs.langchain.com/oss/python/deepagents/overview" target="_blank"><img src="https://img.shields.io/badge/LangChain-2026-blue" alt="LangChain Badge"></a></li>
+</ul>
+
+#### Platform Stacks and Hosted Agent Runtimes
+
+The production ecosystem is increasingly organized around full agent stacks rather than isolated models or prompts. These stacks combine tools, memory, runtime orchestration, sessions, observability, and interoperability in a single platform surface.
+
+<ul>
+<li><i><b>OpenAI Agents Guide</b></i>, OpenAI, <a href="https://platform.openai.com/docs/guides/agents" target="_blank"><img src="https://img.shields.io/badge/OpenAI-2026-blue" alt="OpenAI Badge"></a></li>
+<li><i><b>Google Agent Development Kit (ADK)</b></i>, Google, <a href="https://google.github.io/adk-docs/" target="_blank"><img src="https://img.shields.io/badge/Google-2026-blue" alt="Google Badge"></a></li>
+<li><i><b>Vertex AI Agent Engine</b></i>, Google, <a href="https://cloud.google.com/vertex-ai/generative-ai/docs/agent-engine/overview" target="_blank"><img src="https://img.shields.io/badge/Google-2026-blue" alt="Google Badge"></a></li>
+<li><i><b>LangGraph Memory Overview</b></i>, LangChain, <a href="https://docs.langchain.com/oss/javascript/langgraph/memory" target="_blank"><img src="https://img.shields.io/badge/LangChain-2026-blue" alt="LangChain Badge"></a></li>
+<li><i><b>Microsoft Agent Framework</b></i>, Microsoft, <a href="https://learn.microsoft.com/en-us/agent-framework/user-guide/overview" target="_blank"><img src="https://img.shields.io/badge/Microsoft-2026-blue" alt="Microsoft Badge"></a></li>
 </ul>
 
 ---
