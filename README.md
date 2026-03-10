@@ -1715,6 +1715,7 @@ The frontier of tool use has shifted from static function schemas to **hosted to
 <li><i><b>Computer Use for Claude 3.5</b></i>, Anthropic, <a href="https://www.anthropic.com/news/3-5-models-and-computer-use" target="_blank"><img src="https://img.shields.io/badge/Anthropic-2024.10-blue" alt="Anthropic Badge"></a></li>
 <li><i><b>Google Vertex AI Agent Engine</b></i>, Google, <a href="https://cloud.google.com/vertex-ai/generative-ai/docs/agent-engine/overview" target="_blank"><img src="https://img.shields.io/badge/Google-2026-blue" alt="Google Badge"></a></li>
 <li><i><b>OSWorld</b></i>, Xie et al., <a href="https://os-world.github.io/" target="_blank"><img src="https://img.shields.io/badge/Benchmark-2026-orange" alt="Benchmark Badge"></a></li>
+<li><i><b>Lumen</b></i> — Vision-first browser agent with self-healing deterministic replay over CDP. Screenshot → model → action loop with multi-provider support (Anthropic, Google). <a href="https://github.com/omxyz/lumen" target="_blank"><img src="https://img.shields.io/github/stars/omxyz/lumen.svg?style=social" alt="GitHub stars"></a></li>
 </ul>
 
 <b>Foundational Tool Learning</b>
