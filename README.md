@@ -1421,6 +1421,10 @@ Coding agents have made project memory concrete. In practice, memory now often l
     <a href="https://github.com/wangyu-ustc/MemoryLLM" target="_blank">
   		<img src="https://img.shields.io/github/stars/wangyu-ustc/MemoryLLM.svg?style=social" alt="GitHub stars">
     </a></li>
+<li><i><b>widemem-ai: Open-source AI memory layer with importance scoring, temporal decay, hierarchical memory, and YMRL prioritization</b></i>, <a href="https://widemem.ai" target="_blank"><img src="https://img.shields.io/badge/Website-widemem.ai-blue" alt="Website Badge"></a>
+    <a href="https://github.com/remete618/widemem-ai" target="_blank">
+  		<img src="https://img.shields.io/github/stars/remete618/widemem-ai.svg?style=social" alt="GitHub stars">
+    </a></li>
 <li><i><b>Infinite-LLM: Efficient LLM Service for Long Context with DistAttention and Distributed KVCache</b></i>, Anonymous et al., <a href="https://arxiv.org/abs/2401.02669" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.01-red" alt="arXiv Badge"></a>
     </li>
 <li><i><b>Memory-Augmented Generative Adversarial Transformers</b></i>, Anonymous et al., <a href="https://arxiv.org/abs/2402.19218" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.02-red" alt="arXiv Badge"></a>
