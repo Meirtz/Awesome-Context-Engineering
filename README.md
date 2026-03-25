@@ -1952,6 +1952,10 @@ Long-running agent systems need more than offline benchmark scores. They require
     <a href="https://github.com/autohandai/code-cli" target="_blank">
   		<img src="https://img.shields.io/github/stars/autohandai/code-cli.svg?style=social" alt="GitHub stars">
     </a></li>
+<li><i><b>Cortex: Persistent AI Memory for Coding Assistants</b></i>, Cortex, <a href="https://github.com/SKULLFIRE07/cortex-memory" target="_blank"><img src="https://img.shields.io/badge/Tool-2025-green" alt="Tool Badge"></a>
+    <a href="https://github.com/SKULLFIRE07/cortex-memory" target="_blank">
+  		<img src="https://img.shields.io/github/stars/SKULLFIRE07/cortex-memory.svg?style=social" alt="GitHub stars">
+    </a></li>
 </ul>
 
 #### Coding Agents and Project Memory
