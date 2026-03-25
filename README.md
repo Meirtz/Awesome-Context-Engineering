@@ -790,6 +790,14 @@ In the agent era, context engineering increasingly means **runtime context manag
 <li><i><b>LangChain Deep Agents: Filesystem-Based Context Management</b></i>, LangChain, <a href="https://docs.langchain.com/oss/python/deepagents/overview" target="_blank"><img src="https://img.shields.io/badge/LangChain-2026-blue" alt="LangChain Badge"></a></li>
 </ul>
 
+<b>Context Optimization Engines</b>
+<ul>
+<li><i><b>Entroly: The Context Engineering Engine for AI Coding Agents</b></i> — Information-theoretic context optimization — 78% fewer tokens, 100% codebase visibility, reinforcement learning, Rust engine (<10ms). MCP server + HTTP proxy. Works with Cursor, Claude Code, Copilot, OpenClaw. <a href="https://github.com/juyterman1000/entroly" target="_blank"><img src="https://img.shields.io/badge/Tool-2025-green" alt="Tool Badge"></a>
+    <a href="https://github.com/juyterman1000/entroly" target="_blank">
+  		<img src="https://img.shields.io/github/stars/juyterman1000/entroly.svg?style=social" alt="GitHub stars">
+    </a></li>
+</ul>
+
 <b>Production Design Questions</b>
 <ul>
 <li><i><b>When should state stay in the prompt versus move into files, memory stores, or external tools?</b></i></li>
