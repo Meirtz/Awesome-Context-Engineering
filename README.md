@@ -4,6 +4,7 @@
   <img src="cover.png" alt="Awesome Context Engineering Cover" width="800"/>
 </div>
 
+- [guardian-agent-prompts](https://github.com/milkomida77/guardian-agent-prompts) - 49 production-tested context engineering prompts for Claude Code multi-agent systems with identity blocks, anti-duplication, evidence-based quality gates, and heartbeat monitoring.
 ## 💬 Join Our Community
 
 <div align="center">
