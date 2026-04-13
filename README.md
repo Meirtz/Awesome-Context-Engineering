@@ -73,6 +73,7 @@ Readers primarily interested in the 2026 shift should jump to the expanded secti
 - **Open protocols and interoperability**, including [Model Context Protocol](https://modelcontextprotocol.io/specification/2025-06-18), [A2A](https://a2a-protocol.org/latest/), [AG-UI](https://docs.ag-ui.com/), and [AgentSchema](https://microsoft.github.io/AgentSchema/)
 - **Coding agents and project memory**, including [OpenAI Codex](https://openai.com/index/introducing-codex/), [Claude Code memory](https://docs.anthropic.com/en/docs/claude-code/memory), and [Letta memory blocks](https://docs.letta.com/guides/core-concepts/memory/memory-blocks)
 - **Evaluation and observability**, including [LangSmith observability](https://docs.langchain.com/langsmith/observability-quickstart) and [OpenTelemetry semantic conventions for GenAI](https://opentelemetry.io/docs/specs/semconv/gen-ai/)
+- [CCHub](https://github.com/Moresl/cchub) - A desktop control panel for the Claude Code / Codex / Gemini CLI ecosystem. Manage MCP servers, config profiles, agent skills, CLAUDE.md, hooks, and workflow templates from a single Tauri app (Windows / macOS / Linux).
 
 ---
 
