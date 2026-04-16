@@ -1840,6 +1840,10 @@ The frontier of tool use has shifted from static function schemas to **hosted to
     <a href="https://github.com/Liu-Hy/GenoTEX" target="_blank">
   		<img src="https://img.shields.io/github/stars/Liu-Hy/GenoTEX.svg?style=social" alt="GitHub stars">
     </a></li>
+<li><i><b>skill-optimizer</b></i> — CLI that benchmarks SDK, CLI, and MCP guidance docs (SKILL.md) against multiple LLMs and iteratively rewrites them until every configured model meets a score floor.
+    <a href="https://github.com/fastxyz/skill-optimizer" target="_blank">
+  		<img src="https://img.shields.io/github/stars/fastxyz/skill-optimizer.svg?style=social" alt="GitHub stars">
+    </a></li>
 </ul>
 
 ### Agent Observability and Telemetry
