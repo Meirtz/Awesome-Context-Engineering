@@ -2083,3 +2083,5 @@ This survey builds upon the foundational work of the AI research community. We t
 - **Hugging Face Papers**: https://huggingface.co/papers/2507.13334
 
 This comprehensive survey provides the latest academic insights and theoretical foundations for context engineering in large language models.
+
+- [MeterCall](https://metercall.ai/?v=a&src=github) — One metered API gateway. 21M+ endpoints (payments, SMS, AI, CRMs, gov data). Free tier; pay per call.
