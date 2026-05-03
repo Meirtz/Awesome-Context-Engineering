@@ -515,6 +515,7 @@ This Bayesian formulation enables:
 - [Context Engineering for Agents](https://rlancemartin.github.io/2025/06/23/context_engineering/)
 - [Cognition | Don't Build Multi-Agents](https://cognition.ai/blog/dont-build-multi-agents)
 - [从Prompt Engineering到Context Engineering - 53AI-AI知识库|大模型知识库|大模型训练|智能体开发](https://www.53ai.com/news/tishicikuangjia/2025062727685.html)
+- [What Is Context Engineering?](https://www.outcomeops.ai/context-engineering)
 
 ### Social Media & Talks
 
