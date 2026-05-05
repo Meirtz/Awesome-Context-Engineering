@@ -1604,6 +1604,7 @@ Open protocols have become a major part of agent engineering. In practice, moder
         <img src="https://img.shields.io/github/stars/agent-network-protocol/AgentNetworkProtocol.svg?style=social" alt="GitHub stars">
     </a>
 </li>
+<li><i><b>Not Human Search</b></i> — MCP-first search engine that live-probes 1,700+ agent-ready sites; exposes <code>search</code> and <code>verify_mcp</code> tools over a streamable-HTTP MCP server at <code>/mcp</code>. <a href="https://nothumansearch.ai" target="_blank"><img src="https://img.shields.io/badge/Live-2026-blue" alt="Live Badge"></a></li>
 </ul>
 
 
@@ -1976,6 +1977,7 @@ The production ecosystem is increasingly organized around full agent stacks rath
 <li><i><b>Vertex AI Agent Engine</b></i>, Google, <a href="https://cloud.google.com/vertex-ai/generative-ai/docs/agent-engine/overview" target="_blank"><img src="https://img.shields.io/badge/Google-2026-blue" alt="Google Badge"></a></li>
 <li><i><b>LangGraph Memory Overview</b></i>, LangChain, <a href="https://docs.langchain.com/oss/javascript/langgraph/memory" target="_blank"><img src="https://img.shields.io/badge/LangChain-2026-blue" alt="LangChain Badge"></a></li>
 <li><i><b>Microsoft Agent Framework</b></i>, Microsoft, <a href="https://learn.microsoft.com/en-us/agent-framework/user-guide/overview" target="_blank"><img src="https://img.shields.io/badge/Microsoft-2026-blue" alt="Microsoft Badge"></a></li>
+<li><i><b>AI Dev Board</b></i> — AI/agent-focused jobs board with a REST API and MCP server at <code>/mcp</code> (JSON-RPC); OpenAPI spec at <code>/openapi.yaml</code>. <a href="https://aidevboard.com" target="_blank"><img src="https://img.shields.io/badge/Live-2026-blue" alt="Live Badge"></a></li>
 </ul>
 
 ---
