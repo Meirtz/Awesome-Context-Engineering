@@ -1989,6 +1989,7 @@ The production ecosystem is increasingly organized around full agent stacks rath
 <li><i><b>Vertex AI Agent Engine</b></i>, Google, <a href="https://cloud.google.com/vertex-ai/generative-ai/docs/agent-engine/overview" target="_blank"><img src="https://img.shields.io/badge/Google-2026-blue" alt="Google Badge"></a></li>
 <li><i><b>LangGraph Memory Overview</b></i>, LangChain, <a href="https://docs.langchain.com/oss/javascript/langgraph/memory" target="_blank"><img src="https://img.shields.io/badge/LangChain-2026-blue" alt="LangChain Badge"></a></li>
 <li><i><b>Microsoft Agent Framework</b></i>, Microsoft, <a href="https://learn.microsoft.com/en-us/agent-framework/user-guide/overview" target="_blank"><img src="https://img.shields.io/badge/Microsoft-2026-blue" alt="Microsoft Badge"></a></li>
+<li><i><b>Puppyone</b></i>, Puppyone, <a href="https://github.com/puppyone-ai/puppyone" target="_blank"><img src="https://img.shields.io/badge/GitHub-2026-white" alt="GitHub Badge"></a> — file system for agents to connect, govern, version, and share context across agent workflows.</li>
 </ul>
 
 ---
