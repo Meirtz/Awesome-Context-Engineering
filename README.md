@@ -968,6 +968,7 @@ In 2026, many of the most important advances in context engineering no longer li
 <li><i><b>Google Agent Development Kit (ADK)</b></i>, Google, <a href="https://google.github.io/adk-docs/" target="_blank"><img src="https://img.shields.io/badge/Google-2026-blue" alt="Google Badge"></a></li>
 <li><i><b>LangChain Deep Agents Overview</b></i>, LangChain, <a href="https://docs.langchain.com/oss/python/deepagents/overview" target="_blank"><img src="https://img.shields.io/badge/LangChain-2026-blue" alt="LangChain Badge"></a></li>
 <li><i><b>Microsoft Agent Framework Overview</b></i>, Microsoft, <a href="https://learn.microsoft.com/en-us/agent-framework/user-guide/overview" target="_blank"><img src="https://img.shields.io/badge/Microsoft-2026-blue" alt="Microsoft Badge"></a></li>
+<li><i><b>Bring Your AI</b></i> — Local-first Claude Code to Codex harness mover for rules, skills, MCP config, and validation notes. <a href="https://bringyour.ai/claude-code-to-codex" target="_blank"><img src="https://img.shields.io/badge/Tool-2026-blue" alt="Tool Badge"></a></li>
 </ul>
 
 <b>Core Runtime Concerns</b>
@@ -1613,6 +1614,7 @@ Open protocols have become a major part of agent engineering. In practice, moder
         <img src="https://img.shields.io/github/stars/agent-network-protocol/AgentNetworkProtocol.svg?style=social" alt="GitHub stars">
     </a>
 </li>
+<li><i><b>Not Human Search</b></i> — Search engine for agent-ready sites and MCP servers, with live MCP verification and agentic-readiness scoring. <a href="https://nothumansearch.ai/" target="_blank"><img src="https://img.shields.io/badge/Tool-2026-blue" alt="Tool Badge"></a></li>
 </ul>
 
 
