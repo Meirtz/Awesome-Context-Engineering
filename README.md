@@ -507,6 +507,7 @@ This Bayesian formulation enables:
 
 ## 🌐 Related Blogs
 
+- [Bernstein](https://github.com/sipyourdrink-ltd/bernstein) - Multi-agent orchestrator with context-aware model routing. Routes tasks to optimal models based on complexity, manages context across parallel agents.
 - [The rise of "context engineering"](https://blog.langchain.com/the-rise-of-context-engineering/)
 - [The New Skill in AI is Not Prompting, It's Context Engineering](https://www.philschmid.de/context-engineering)
 - [davidkimai/Context-Engineering: "Context engineering is the delicate art and science of filling the context window with just the right information for the next step." ](https://github.com/davidkimai/Context-Engineering)
