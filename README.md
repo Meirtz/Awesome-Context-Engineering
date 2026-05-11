@@ -794,6 +794,10 @@ In the agent era, context engineering increasingly means **runtime context manag
 
 <b>Context Optimization Engines</b>
 <ul>
+<li><i><b>agentkit-seo: Context Engineering Framework for Professional Identity</b></i> — Structures personal career facts into a verified agent-context-file that AI agents read before editing GitHub, LinkedIn, CVs, and portfolios. <a href="https://github.com/agentkit-seo/agentkit-seo" target="_blank"><img src="https://img.shields.io/badge/Tool-2026-green" alt="Tool Badge"></a>
+    <a href="https://github.com/agentkit-seo/agentkit-seo" target="_blank">
+		<img src="https://img.shields.io/github/stars/agentkit-seo/agentkit-seo.svg?style=social" alt="GitHub stars">
+    </a></li>
 <li><i><b>Entroly: The Context Engineering Engine for AI Coding Agents</b></i> — Information-theoretic context optimization — 78% fewer tokens, 100% codebase visibility, reinforcement learning, Rust engine (<10ms). MCP server + HTTP proxy. Works with Cursor, Claude Code, Copilot, OpenClaw. <a href="https://github.com/juyterman1000/entroly" target="_blank"><img src="https://img.shields.io/badge/Tool-2025-green" alt="Tool Badge"></a>
     <a href="https://github.com/juyterman1000/entroly" target="_blank">
   		<img src="https://img.shields.io/github/stars/juyterman1000/entroly.svg?style=social" alt="GitHub stars">
