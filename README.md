@@ -1416,6 +1416,7 @@ Coding agents have made project memory concrete. In practice, memory now often l
 <li><i><b>Claude Code Memory</b></i>, Anthropic, <a href="https://docs.anthropic.com/en/docs/claude-code/memory" target="_blank"><img src="https://img.shields.io/badge/Anthropic-2026-blue" alt="Anthropic Badge"></a></li>
 <li><i><b>Claude Code Subagents</b></i>, Anthropic, <a href="https://docs.anthropic.com/en/docs/claude-code/sub-agents" target="_blank"><img src="https://img.shields.io/badge/Anthropic-2026-blue" alt="Anthropic Badge"></a></li>
 <li><i><b>LangChain Deep Agents Overview</b></i>, LangChain, <a href="https://docs.langchain.com/oss/python/deepagents/overview" target="_blank"><img src="https://img.shields.io/badge/LangChain-2026-blue" alt="LangChain Badge"></a></li>
+<li><i><b>Akephalos</b></i> — Local-first, markdown-first <code>.akephalos</code> passport for carrying human preferences, tool notes, rules, project context, and durable memories across Codex, Claude Code, Cursor, Hermes, OpenClaw, MCP clients, and different machines via plain files/Git. <a href="https://github.com/sunnja69/akephalos" target="_blank"><img src="https://img.shields.io/badge/GitHub-2026-white" alt="GitHub Badge"></a></li>
 </ul>
 
 <b>Persistent Memory Architecture</b>
