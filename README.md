@@ -798,6 +798,10 @@ In the agent era, context engineering increasingly means **runtime context manag
     <a href="https://github.com/juyterman1000/entroly" target="_blank">
   		<img src="https://img.shields.io/github/stars/juyterman1000/entroly.svg?style=social" alt="GitHub stars">
     </a></li>
+<li><i><b>contextweaver: Phase-Specific Budgeted Context Compilation and Bounded-DAG Tool Routing</b></i> — Python library for tool-using agents. Per-phase token budgets (route / call / interpret / answer), context firewall that keeps large tool outputs out of the prompt, deterministic-by-default pipeline. Framework-agnostic — adapters for MCP, A2A, LangChain, LlamaIndex, OpenAI Agents SDK, Google ADK, Pipecat. Apache-2.0, 600+ tests, minimal core deps. <a href="https://github.com/dgenio/contextweaver" target="_blank"><img src="https://img.shields.io/badge/Tool-2026-green" alt="Tool Badge"></a>
+    <a href="https://github.com/dgenio/contextweaver" target="_blank">
+  		<img src="https://img.shields.io/github/stars/dgenio/contextweaver.svg?style=social" alt="GitHub stars">
+    </a></li>
 </ul>
 
 <b>Production Design Questions</b>
