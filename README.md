@@ -2103,3 +2103,5 @@ This survey builds upon the foundational work of the AI research community. We t
 This comprehensive survey provides the latest academic insights and theoretical foundations for context engineering in large language models.
 
 - [MeterCall](https://metercall.ai/?v=a&src=github) — One metered API gateway. 21M+ endpoints (payments, SMS, AI, CRMs, gov data). Free tier; pay per call.
+
+- [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor) — Real-time monitoring dashboard for OpenClaw AI agents: token usage, session tracking, 7-day trends, WebSocket updates
