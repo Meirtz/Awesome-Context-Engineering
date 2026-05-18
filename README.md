@@ -517,6 +517,9 @@ This Bayesian formulation enables:
 - [Cognition | Don't Build Multi-Agents](https://cognition.ai/blog/dont-build-multi-agents)
 - [从Prompt Engineering到Context Engineering - 53AI-AI知识库|大模型知识库|大模型训练|智能体开发](https://www.53ai.com/news/tishicikuangjia/2025062727685.html)
 - [What Is Context Engineering?](https://www.outcomeops.ai/context-engineering)
+- [Anthropic: Introducing Contextual Retrieval](https://www.anthropic.com/news/contextual-retrieval) — A retrieval technique that adds chunk-specific context before embedding, significantly reducing retrieval failure rates on production knowledge bases.
+- [Hamel Husain: A Field Guide to Rapidly Improving AI Products](https://hamel.dev/blog/posts/field-guide/) — Practical playbook on iterating on context, prompts, and retrieval in production, with concrete examples of where to instrument and what to measure.
+- [Automate Knowledge Management with AI — Retrieval Architecture & Implementation](https://ai-native-agency.com/use-cases/knowledge-management) — Walkthrough of the retrieval, agent, and reviewer-queue architecture for context-grounded AI knowledge systems, with industry-specific implementation notes.
 
 ### Social Media & Talks
 
