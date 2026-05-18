@@ -1416,6 +1416,10 @@ Coding agents have made project memory concrete. In practice, memory now often l
 <li><i><b>Claude Code Memory</b></i>, Anthropic, <a href="https://docs.anthropic.com/en/docs/claude-code/memory" target="_blank"><img src="https://img.shields.io/badge/Anthropic-2026-blue" alt="Anthropic Badge"></a></li>
 <li><i><b>Claude Code Subagents</b></i>, Anthropic, <a href="https://docs.anthropic.com/en/docs/claude-code/sub-agents" target="_blank"><img src="https://img.shields.io/badge/Anthropic-2026-blue" alt="Anthropic Badge"></a></li>
 <li><i><b>LangChain Deep Agents Overview</b></i>, LangChain, <a href="https://docs.langchain.com/oss/python/deepagents/overview" target="_blank"><img src="https://img.shields.io/badge/LangChain-2026-blue" alt="LangChain Badge"></a></li>
+<li><i><b>Agent Memory System</b></i>, RAVBYTE, <a href="https://github.com/RavByte-AI/agent-memory-system" target="_blank"><img src="https://img.shields.io/badge/Tool-2026-green" alt="Tool Badge"></a> — persistent memory infrastructure for AI coding agents and multi-agent workflows.
+    <a href="https://github.com/RavByte-AI/agent-memory-system" target="_blank">
+        <img src="https://img.shields.io/github/stars/RavByte-AI/agent-memory-system.svg?style=social" alt="GitHub stars">
+    </a></li>
 </ul>
 
 <b>Persistent Memory Architecture</b>
