@@ -513,6 +513,7 @@ This Bayesian formulation enables:
 - [davidkimai/Context-Engineering: "Context engineering is the delicate art and science of filling the context window with just the right information for the next step." ](https://github.com/davidkimai/Context-Engineering)
 - [Context Engineering is Runtime of AI Agents | by Bijit Ghosh | Jun, 2025 | Medium](https://medium.com/@bijit211987/context-engineering-is-runtime-of-ai-agents-411c9b2ef1cb)
 - [Context Engineering](https://blog.langchain.com/context-engineering-for-agents/)
+- [Context Engineering: The Skill That Separates AI-Native Engineers](https://lab.aidevos.ai/context-engineering) - A practitioner framework for individual software engineers: 4 context types × 3 proficiency levels. Treats the codebase-as-prompt as a first-class skill to master, not just a workflow tip. AI Native Engineering · AI DevOS.
 - [Context Engineering for Agents](https://rlancemartin.github.io/2025/06/23/context_engineering/)
 - [Cognition | Don't Build Multi-Agents](https://cognition.ai/blog/dont-build-multi-agents)
 - [从Prompt Engineering到Context Engineering - 53AI-AI知识库|大模型知识库|大模型训练|智能体开发](https://www.53ai.com/news/tishicikuangjia/2025062727685.html)
