@@ -1983,6 +1983,7 @@ Coding agents are one of the clearest production settings in which context engin
 <li><i><b>Letta Memory Blocks</b></i>, Letta, <a href="https://docs.letta.com/guides/core-concepts/memory/memory-blocks" target="_blank"><img src="https://img.shields.io/badge/Letta-2026-blue" alt="Letta Badge"></a></li>
 <li><i><b>LangChain Deep Agents</b></i>, LangChain, <a href="https://docs.langchain.com/oss/python/deepagents/overview" target="_blank"><img src="https://img.shields.io/badge/LangChain-2026-blue" alt="LangChain Badge"></a></li>
 <li><i><b>nv:context</b></i>, NichevLabs, <a href="https://skills.nichevlabs.com" target="_blank"><img src="https://img.shields.io/badge/Tool-2026-green" alt="Tool Badge"></a></li>
+<li><i><b>Ivy Tendril</b></i>, Ivy Interactive, <a href="https://github.com/Ivy-Interactive/Ivy-Tendril" target="_blank"><img src="https://img.shields.io/badge/GitHub-2025-white" alt="GitHub Badge"></a> — open-source AI coding orchestrator that implements context engineering through structured plans, persistent promptware memory across sessions, and automated verification gates as feedback loops. Manages Claude Code, Codex, and other agents.</li>
 </ul>
 
 #### Platform Stacks and Hosted Agent Runtimes
