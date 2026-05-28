@@ -800,6 +800,10 @@ In the agent era, context engineering increasingly means **runtime context manag
     <a href="https://github.com/juyterman1000/entroly" target="_blank">
   		<img src="https://img.shields.io/github/stars/juyterman1000/entroly.svg?style=social" alt="GitHub stars">
     </a></li>
+<li><i><b>Future AGI agent-opt: Prompt and Agent-Workflow Optimizer</b></i> — Open-source library with six optimization algorithms (Random, Bayesian, ProTeGi, Meta-Prompt, PromptWizard, GEPA) for evaluation-driven tuning of prompts and agent configs against any LiteLLM-supported model and any metric. <a href="https://github.com/future-agi/agent-opt" target="_blank"><img src="https://img.shields.io/badge/Tool-2026-green" alt="Tool Badge"></a>
+    <a href="https://github.com/future-agi/agent-opt" target="_blank">
+  		<img src="https://img.shields.io/github/stars/future-agi/agent-opt.svg?style=social" alt="GitHub stars">
+    </a></li>
 </ul>
 
 <b>Production Design Questions</b>
@@ -1830,6 +1834,7 @@ The frontier of tool use has shifted from static function schemas to **hosted to
 <li><i><b>Evaluation of Retrieval-Augmented Generation: A Survey</b></i>, Li et al., <a href="https://arxiv.org/abs/2405.07437" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.05-red" alt="arXiv Badge"></a></li>
 <li><i><b>Ragas: Automated Evaluation of Retrieval Augmented Generation</b></i>, Espinosa-Anke et al., <a href="https://arxiv.org/abs/2309.15217" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.09-red" alt="arXiv Badge"></a></li>
 <li><i><b>Human Evaluation Protocol for Generative AI Chatbots in Clinical Microbiology</b></i>, Griego-Herrera et al., <a href="https://doi.org/10.1371/journal.pone.0300487" target="_blank"><img src="https://img.shields.io/badge/PLOS-2024.03-blue" alt="PLOS Badge"></a></li>
+<li><i><b>Future AGI ai-evaluation: Open-Source LLM Evaluation Framework</b></i>, Future AGI, <a href="https://github.com/future-agi/ai-evaluation" target="_blank"><img src="https://img.shields.io/badge/Future_AGI-2026-blue" alt="Future AGI Badge"></a> — 50+ metrics, LLM-as-judge, and guardrail scanners (jailbreak, PII, prompt-injection); includes dedicated RAG metrics (context recall, context precision, answer relevancy, faithfulness) for context-quality assessment.</li>
 </ul>
 
 ### Benchmarking Context Engineering
@@ -1870,6 +1875,7 @@ Long-running agent systems need more than offline benchmark scores. They require
 <li><i><b>OpenTelemetry Semantic Conventions for Generative AI</b></i>, OpenTelemetry, <a href="https://opentelemetry.io/docs/specs/semconv/gen-ai/" target="_blank"><img src="https://img.shields.io/badge/OpenTelemetry-2026-blue" alt="OpenTelemetry Badge"></a></li>
 <li><i><b>Google ADK Evaluation and Observability</b></i>, Google, <a href="https://google.github.io/adk-docs/" target="_blank"><img src="https://img.shields.io/badge/Google-2026-blue" alt="Google Badge"></a></li>
 <li><i><b>OpenAI Agents and Tools</b></i>, OpenAI, <a href="https://platform.openai.com/docs/guides/agents" target="_blank"><img src="https://img.shields.io/badge/OpenAI-2026-blue" alt="OpenAI Badge"></a></li>
+<li><i><b>Future AGI traceAI: OpenTelemetry-Native Tracing for LLM and Agent Apps</b></i>, Future AGI, <a href="https://github.com/future-agi/traceAI" target="_blank"><img src="https://img.shields.io/badge/Future_AGI-2026-blue" alt="Future AGI Badge"></a> — open-source OpenTelemetry-native tracing that auto-instruments 50+ AI frameworks across Python, TypeScript, Java, and C#; captures prompts, tool calls, retrieval steps, and tokens with no vendor lock-in.</li>
 </ul>
 
 
@@ -1996,6 +2002,7 @@ The production ecosystem is increasingly organized around full agent stacks rath
 <li><i><b>LangGraph Memory Overview</b></i>, LangChain, <a href="https://docs.langchain.com/oss/javascript/langgraph/memory" target="_blank"><img src="https://img.shields.io/badge/LangChain-2026-blue" alt="LangChain Badge"></a></li>
 <li><i><b>Microsoft Agent Framework</b></i>, Microsoft, <a href="https://learn.microsoft.com/en-us/agent-framework/user-guide/overview" target="_blank"><img src="https://img.shields.io/badge/Microsoft-2026-blue" alt="Microsoft Badge"></a></li>
 <li><i><b>Puppyone</b></i>, Puppyone, <a href="https://github.com/puppyone-ai/puppyone" target="_blank"><img src="https://img.shields.io/badge/GitHub-2026-white" alt="GitHub Badge"></a> — file system for agents to connect, govern, version, and share context across agent workflows.</li>
+<li><i><b>Future AGI</b></i>, Future AGI, <a href="https://github.com/future-agi/future-agi" target="_blank"><img src="https://img.shields.io/badge/Future_AGI-2026-blue" alt="Future AGI Badge"></a> — open-source self-hostable end-to-end agent engineering and optimization platform unifying tracing, evaluation, simulation, datasets, gateway, and guardrails in one feedback loop for shipping self-improving agents.</li>
 </ul>
 
 ---
