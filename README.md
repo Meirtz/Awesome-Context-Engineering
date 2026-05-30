@@ -785,6 +785,11 @@ This discipline is foundational for unlocking the full potential of LLMs in prod
 
 In the agent era, context engineering increasingly means **runtime context management** rather than only prompt construction. Production systems now rely on compaction, caching, artifact-backed state, and scoped instruction loading to keep long-horizon agents efficient and controllable.
 
+<b>Token-Efficient Context Formats</b>
+<ul>
+<li><i><b>SLIM Format</b></i> — Token-efficient file format for AI prompts, agent configs, and tool schemas. Replaces Markdown with structured <code>::SECTION</code> syntax; strips orchestrator metadata before LLM call. Saves ~43% LLM-facing tokens on average. <a href="https://slimformat.org" target="_blank"><img src="https://img.shields.io/badge/Tool-2026-green" alt="Tool Badge"></a> <a href="https://github.com/nagandla-sasidhar/slim" target="_blank">GitHub</a></li>
+</ul>
+
 <b>Runtime Context Management Patterns</b>
 <ul>
 <li><i><b>OpenAI Agents Guide</b></i>, OpenAI, <a href="https://platform.openai.com/docs/guides/agents" target="_blank"><img src="https://img.shields.io/badge/OpenAI-2026-blue" alt="OpenAI Badge"></a></li>
