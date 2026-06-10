@@ -792,6 +792,7 @@ In the agent era, context engineering increasingly means **runtime context manag
 <li><i><b>Google ADK: Context Caching and Context Compression</b></i>, Google, <a href="https://google.github.io/adk-docs/" target="_blank"><img src="https://img.shields.io/badge/Google-2026-blue" alt="Google Badge"></a></li>
 <li><i><b>Claude Code Memory and Scoped Project Instructions</b></i>, Anthropic, <a href="https://docs.anthropic.com/en/docs/claude-code/memory" target="_blank"><img src="https://img.shields.io/badge/Anthropic-2026-blue" alt="Anthropic Badge"></a></li>
 <li><i><b>LangChain Deep Agents: Filesystem-Based Context Management</b></i>, LangChain, <a href="https://docs.langchain.com/oss/python/deepagents/overview" target="_blank"><img src="https://img.shields.io/badge/LangChain-2026-blue" alt="LangChain Badge"></a></li>
+<li><i><b>Agent Workspace Architecture: Token-Budget Governance for Always-Loaded Context</b></i>, James Ross, <a href="https://github.com/jimy-r/agent-workspace-architecture" target="_blank"><img src="https://img.shields.io/badge/GitHub-2026-blue" alt="GitHub Badge"></a></li>
 </ul>
 
 <b>Context Optimization Engines</b>
