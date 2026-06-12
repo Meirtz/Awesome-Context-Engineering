@@ -1983,6 +1983,7 @@ Coding agents are one of the clearest production settings in which context engin
 <li><i><b>Letta Memory Blocks</b></i>, Letta, <a href="https://docs.letta.com/guides/core-concepts/memory/memory-blocks" target="_blank"><img src="https://img.shields.io/badge/Letta-2026-blue" alt="Letta Badge"></a></li>
 <li><i><b>LangChain Deep Agents</b></i>, LangChain, <a href="https://docs.langchain.com/oss/python/deepagents/overview" target="_blank"><img src="https://img.shields.io/badge/LangChain-2026-blue" alt="LangChain Badge"></a></li>
 <li><i><b>nv:context</b></i>, NichevLabs, <a href="https://skills.nichevlabs.com" target="_blank"><img src="https://img.shields.io/badge/Tool-2026-green" alt="Tool Badge"></a></li>
+<li><i><b>aicfg</b></i>, iPythoning, <a href="https://github.com/ipythoning/aicfg" target="_blank"><img src="https://img.shields.io/badge/Tool-2026-green" alt="Tool Badge"></a> — AGENTS.md ecosystem CLI: init, validate, and shim project instructions across Claude Code, Cursor, Codex, and 20+ other AI coding tools.</li>
 </ul>
 
 #### Platform Stacks and Hosted Agent Runtimes
