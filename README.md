@@ -1970,6 +1970,7 @@ Long-running agent systems need more than offline benchmark scores. They require
     <a href="https://github.com/autohandai/code-cli" target="_blank">
   		<img src="https://img.shields.io/github/stars/autohandai/code-cli.svg?style=social" alt="GitHub stars">
     </a></li>
+<li><i><b>Remio: Local-first Personal Knowledge Base with Pre-parsed Context</b></i>, Remio, <a href="https://remio.ai/" target="_blank"><img src="https://img.shields.io/badge/Tool-2026-green" alt="Tool Badge"></a> — pre-parses files, webpages, recordings, notes, emails, messages, and images into indexed and vector-retrievable context, reducing repeated raw-file scans and context-token cost for agent workflows.</li>
 </ul>
 
 #### Coding Agents and Project Memory
