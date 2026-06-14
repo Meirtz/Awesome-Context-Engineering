@@ -1858,6 +1858,10 @@ The frontier of tool use has shifted from static function schemas to **hosted to
     <a href="https://github.com/fastxyz/skill-optimizer" target="_blank">
   		<img src="https://img.shields.io/github/stars/fastxyz/skill-optimizer.svg?style=social" alt="GitHub stars">
     </a></li>
+<li><i><b>PerspectiveGap: A Benchmark for Multi-Agent Orchestration Prompting</b></i>, Sun et al., <a href="https://arxiv.org/abs/2606.08878" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026.06-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/WhymustIhaveaname/PerspectiveGap" target="_blank">
+  		<img src="https://img.shields.io/github/stars/WhymustIhaveaname/PerspectiveGap.svg?style=social" alt="GitHub stars">
+    </a></li>
 </ul>
 
 ### Agent Observability and Telemetry
