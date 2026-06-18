@@ -1446,6 +1446,7 @@ Coding agents have made project memory concrete. In practice, memory now often l
     <a href="https://github.com/portable-ai-memory/python-sdk" target="_blank">
   		<img src="https://img.shields.io/github/stars/portable-ai-memory/python-sdk.svg?style=social" alt="GitHub stars">
     </a></li>
+<li><i><b>Agentage Memory - One memory. Every AI. Owned by you.</b></i>, agentage, <a href="https://memory.agentage.io" target="_blank"><img src="https://img.shields.io/badge/Product-2026-blue" alt="Product Badge"></a></li> - Open, files-first shared memory layer for every AI; remote MCP server at https://memory.agentage.io/mcp (Streamable HTTP, OAuth 2.1 + PKCE + DCR), mirrored locally as plain markdown you own.
 </ul>
 
 <b>Memory-Augmented Neural Networks</b>
