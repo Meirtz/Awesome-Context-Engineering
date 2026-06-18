@@ -1867,6 +1867,7 @@ Long-running agent systems need more than offline benchmark scores. They require
 <b>Observability and Telemetry References</b>
 <ul>
 <li><i><b>LangSmith Observability Quickstart</b></i>, LangChain, <a href="https://docs.langchain.com/langsmith/observability-quickstart" target="_blank"><img src="https://img.shields.io/badge/LangChain-2026-blue" alt="LangChain Badge"></a></li>
+<li><i><b>Future AGI Tracing and Observability</b></i>, Future AGI, <a href="https://github.com/future-agi/future-agi" target="_blank"><img src="https://img.shields.io/badge/Future_AGI-2026-blue" alt="Future AGI Badge"></a></li>
 <li><i><b>OpenTelemetry Semantic Conventions for Generative AI</b></i>, OpenTelemetry, <a href="https://opentelemetry.io/docs/specs/semconv/gen-ai/" target="_blank"><img src="https://img.shields.io/badge/OpenTelemetry-2026-blue" alt="OpenTelemetry Badge"></a></li>
 <li><i><b>Google ADK Evaluation and Observability</b></i>, Google, <a href="https://google.github.io/adk-docs/" target="_blank"><img src="https://img.shields.io/badge/Google-2026-blue" alt="Google Badge"></a></li>
 <li><i><b>OpenAI Agents and Tools</b></i>, OpenAI, <a href="https://platform.openai.com/docs/guides/agents" target="_blank"><img src="https://img.shields.io/badge/OpenAI-2026-blue" alt="OpenAI Badge"></a></li>
