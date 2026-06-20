@@ -1970,6 +1970,7 @@ Long-running agent systems need more than offline benchmark scores. They require
     <a href="https://github.com/autohandai/code-cli" target="_blank">
   		<img src="https://img.shields.io/github/stars/autohandai/code-cli.svg?style=social" alt="GitHub stars">
     </a></li>
+<li><i><b>ax</b></i>, Necmttn, <a href="https://github.com/Necmttn/ax" target="_blank"><img src="https://img.shields.io/badge/GitHub-2026-white" alt="GitHub Badge"></a> - local telemetry graph for coding agents, covering transcripts, sessions, tool calls, skills, cost/routing analytics, hooks, dashboard, and MCP queries.</li>
 </ul>
 
 #### Coding Agents and Project Memory
