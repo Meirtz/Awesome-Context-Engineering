@@ -972,6 +972,10 @@ In 2026, many of the most important advances in context engineering no longer li
 <li><i><b>LangChain Deep Agents Overview</b></i>, LangChain, <a href="https://docs.langchain.com/oss/python/deepagents/overview" target="_blank"><img src="https://img.shields.io/badge/LangChain-2026-blue" alt="LangChain Badge"></a></li>
 <li><i><b>Microsoft Agent Framework Overview</b></i>, Microsoft, <a href="https://learn.microsoft.com/en-us/agent-framework/user-guide/overview" target="_blank"><img src="https://img.shields.io/badge/Microsoft-2026-blue" alt="Microsoft Badge"></a></li>
 <li><i><b>Bring Your AI</b></i> — Local-first Claude Code to Codex harness mover for rules, skills, MCP config, and validation notes. <a href="https://bringyour.ai/claude-code-to-codex" target="_blank"><img src="https://img.shields.io/badge/Tool-2026-blue" alt="Tool Badge"></a></li>
+<li><i><b>LoopTroop</b></i> — Local-first AI coding orchestrator: LLM council planning, beads execution, Ralph-style recovery, and worktree isolation for long-running autonomous coding tasks. <a href="https://github.com/looptroop-ai/LoopTroop" target="_blank"><img src="https://img.shields.io/badge/Tool-2026-green" alt="Tool Badge"></a>
+    <a href="https://github.com/looptroop-ai/LoopTroop" target="_blank">
+        <img src="https://img.shields.io/github/stars/looptroop-ai/LoopTroop.svg?style=social" alt="GitHub stars">
+    </a></li>
 </ul>
 
 <b>Core Runtime Concerns</b>
