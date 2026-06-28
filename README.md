@@ -800,6 +800,10 @@ In the agent era, context engineering increasingly means **runtime context manag
     <a href="https://github.com/juyterman1000/entroly" target="_blank">
   		<img src="https://img.shields.io/github/stars/juyterman1000/entroly.svg?style=social" alt="GitHub stars">
     </a></li>
+<li><i><b>skillreaper: Evidence-Based Pruning for Your AI-Agent Stack</b></i> — 100%-local CLI (<code>reap</code>) that scans Claude Code and Codex session transcripts to find skills, MCP servers, and agents that load into context but never fire, then reversibly prunes them to reclaim the context window. No network calls, no telemetry. <a href="https://github.com/thousandflowers/skillreaper" target="_blank"><img src="https://img.shields.io/badge/Tool-2026-green" alt="Tool Badge"></a>
+    <a href="https://github.com/thousandflowers/skillreaper" target="_blank">
+  		<img src="https://img.shields.io/github/stars/thousandflowers/skillreaper.svg?style=social" alt="GitHub stars">
+    </a></li>
 </ul>
 
 <b>Production Design Questions</b>
