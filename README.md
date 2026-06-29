@@ -800,6 +800,7 @@ In the agent era, context engineering increasingly means **runtime context manag
     <a href="https://github.com/juyterman1000/entroly" target="_blank">
   		<img src="https://img.shields.io/github/stars/juyterman1000/entroly.svg?style=social" alt="GitHub stars">
     </a></li>
+<li><i><b>SuperCompress</b></i> — Learned prompt compression that reduces LLM token costs by ~65% using a ~5K-param CPU policy (~60ms latency). Query-aware and open-source (MIT). <a href="https://supercompress.vercel.app" target="_blank"><img src="https://img.shields.io/badge/Tool-2025-green" alt="Tool Badge"></a>
 </ul>
 
 <b>Production Design Questions</b>
