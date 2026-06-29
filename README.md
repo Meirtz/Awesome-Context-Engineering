@@ -1463,6 +1463,13 @@ Coding agents have made project memory concrete. In practice, memory now often l
 
 <b>Episodic Memory and Context Persistence</b>
 <ul>
+<li><i><b>Statewave: Persistent State Management for AI Agents</b></i>
+    <a href="https://github.com/smaramwbc/statewave" target="_blank">
+        <img src="https://img.shields.io/github/stars/smaramwbc/statewave.svg?style=social" alt="GitHub stars">
+    </a>
+    <br>
+    Open-source state management layer for AI agents enabling durable runtime state, shared context, and cross-session continuity for long-running and multi-agent workflows.
+</li>
 <li><i><b>The Role of Memory in LLMs: Persistent Context for Smarter Conversations</b></i>, Porcu, <a href="https://doi.org/10.18535/ijsrm/v12i11.ec04" target="_blank"><img src="https://img.shields.io/badge/IJSRM-2024.11-blue" alt="IJSRM Badge"></a>
     </li>
 <li><i><b>Episodic Memory in AI Agents Poses Risks that Should Be Studied and Mitigated</b></i>, Christiano et al., <a href="https://arxiv.org/abs/2401.11739" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.10-red" alt="arXiv Badge"></a>
