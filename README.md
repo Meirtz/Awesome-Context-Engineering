@@ -30,6 +30,8 @@ For questions, suggestions, or collaboration opportunities, please feel free to 
 
 **I WROTE THE WRONG EMAIL ADDRESS IN THE FIRST VERSION OF MY PAPER!!** You can also open an issue in this repository for general discussions and suggestions.
 
+- **[Context Kit](https://github.com/JDDavenport/context-kit)** — Open-source toolkit for Personal Context Artifacts: 4 Markdown templates (wiki, mental-models, voice, protocols) + 5 Claude Code skills. Gives AI agents persistent personal context without vendor lock-in. One-command install, model-agnostic.
+
 ---
 
 ## 📰 News
