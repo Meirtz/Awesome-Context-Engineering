@@ -1970,6 +1970,10 @@ Long-running agent systems need more than offline benchmark scores. They require
     <a href="https://github.com/autohandai/code-cli" target="_blank">
   		<img src="https://img.shields.io/github/stars/autohandai/code-cli.svg?style=social" alt="GitHub stars">
     </a></li>
+<li><i><b>Tree Ring Memory: Lifecycle-Aware Local Memory Framework for AI Agents</b></i>, TerminallyLazy, <a href="https://github.com/TerminallyLazy/Tree-Ring-Memory" target="_blank"><img src="https://img.shields.io/badge/Tool-2026-green" alt="Tool Badge"></a>
+    <a href="https://github.com/TerminallyLazy/Tree-Ring-Memory" target="_blank">
+      <img src="https://img.shields.io/github/stars/TerminallyLazy/Tree-Ring-Memory.svg?style=social" alt="GitHub stars">
+    </a></li>
 </ul>
 
 #### Coding Agents and Project Memory
