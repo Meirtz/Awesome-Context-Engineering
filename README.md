@@ -1979,6 +1979,10 @@ Coding agents are one of the clearest production settings in which context engin
 <ul>
 <li><i><b>Introducing Codex</b></i>, OpenAI, <a href="https://openai.com/index/introducing-codex/" target="_blank"><img src="https://img.shields.io/badge/OpenAI-2025.05-blue" alt="OpenAI Badge"></a></li>
 <li><i><b>Claude Code Memory</b></i>, Anthropic, <a href="https://docs.anthropic.com/en/docs/claude-code/memory" target="_blank"><img src="https://img.shields.io/badge/Anthropic-2026-blue" alt="Anthropic Badge"></a></li>
+<li><i><b>Data Olympus</b></i>, knaisoma, <a href="https://github.com/knaisoma/data-olympus" target="_blank"><img src="https://img.shields.io/badge/Tool-2026-green" alt="Tool Badge"></a>
+    <a href="https://github.com/knaisoma/data-olympus" target="_blank">
+      <img src="https://img.shields.io/github/stars/knaisoma/data-olympus.svg?style=social" alt="GitHub stars">
+    </a></li>
 <li><i><b>Claude Code Subagents</b></i>, Anthropic, <a href="https://docs.anthropic.com/en/docs/claude-code/sub-agents" target="_blank"><img src="https://img.shields.io/badge/Anthropic-2026-blue" alt="Anthropic Badge"></a></li>
 <li><i><b>Letta Memory Blocks</b></i>, Letta, <a href="https://docs.letta.com/guides/core-concepts/memory/memory-blocks" target="_blank"><img src="https://img.shields.io/badge/Letta-2026-blue" alt="Letta Badge"></a></li>
 <li><i><b>LangChain Deep Agents</b></i>, LangChain, <a href="https://docs.langchain.com/oss/python/deepagents/overview" target="_blank"><img src="https://img.shields.io/badge/LangChain-2026-blue" alt="LangChain Badge"></a></li>
