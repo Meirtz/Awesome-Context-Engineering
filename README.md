@@ -1,5 +1,9 @@
 # Awesome Context Engineering
 
+<!-- bmc:front -->
+<p align="center"><a href="https://buymeacoffee.com/dayongfan"><img src="https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&amp;emoji=&amp;slug=dayongfan&amp;button_colour=FFDD00&amp;font_colour=000000&amp;font_family=Cookie&amp;outline_colour=000000&amp;coffee_colour=ffffff" alt="Buy me a coffee"></a></p>
+<!-- /bmc:front -->
+
 <div align="center">
   <img src="cover.png" alt="Awesome Context Engineering Cover" width="800"/>
 </div>
@@ -384,7 +388,6 @@ Readers primarily interested in the 2026 shift should jump to the expanded secti
     </a></li>
 </ul>
 
-
 <b>Additional RAG and Retrieval Surveys</b>
 <ul>
 <li><i><b>Retrieval-Augmented Generation for AI-Generated Content: A Survey</b></i>, Various, <a href="https://arxiv.org/abs/2402.19473" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.02-red" alt="arXiv Badge"></a>
@@ -396,7 +399,6 @@ Readers primarily interested in the 2026 shift should jump to the expanded secti
 <li><i><b>Large language models (LLMs): survey, technical frameworks, and future challenges</b></i>, Various, <a href="#" target="_blank"><img src="https://img.shields.io/badge/AIR-2024-blue" alt="AIR Badge"></a>
     </li>
 </ul>
-
 
 ---
 
@@ -500,8 +502,6 @@ This Bayesian formulation enables:
 | **State Management** | Stateless function | Stateful with $\text{memory}(\text{history}, \text{query})$ |
 | **Scalability** | Linear in prompt length | Sublinear through compression/filtering |
 | **Error Analysis** | Manual prompt inspection | Systematic evaluation of assembly components |
-
-
 
 ---
 
@@ -714,8 +714,6 @@ This discipline is foundational for unlocking the full potential of LLMs in prod
     </li>
 </ul>
 
-
-
 <b>Audio-Visual Context Integration and Processing</b>
 
 <ul>
@@ -733,9 +731,6 @@ This discipline is foundational for unlocking the full potential of LLMs in prod
     </a></li>
 </ul>
 
-
-
-
 <b>Multi-Modal Prompt Engineering and Context Design</b>
 
 <ul>
@@ -746,9 +741,6 @@ This discipline is foundational for unlocking the full potential of LLMs in prod
 <li><i><b>CAMA: Enhancing Multimodal In-Context Learning with Context-Aware Modulated Attention</b></i>, Li et al., <a href="https://arxiv.org/abs/2505.17097" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.05-red" alt="arXiv Badge"></a>
     </li>
 </ul>
-
-
-
 
 <b>CVPR 2024 Vision-Language Advances</b>
 
@@ -767,9 +759,6 @@ This discipline is foundational for unlocking the full potential of LLMs in prod
     </a></li>
 </ul>
 
-
-
-
 <b>Video and Temporal Understanding</b>
 
 <ul>
@@ -778,8 +767,6 @@ This discipline is foundational for unlocking the full potential of LLMs in prod
   		<img src="https://img.shields.io/github/stars/yunlong10/Awesome-LLMs-for-Video-Understanding.svg?style=social" alt="GitHub stars">
     </a></li>
 </ul>
-
-
 
 ### Context Management in Production
 
@@ -810,8 +797,6 @@ In the agent era, context engineering increasingly means **runtime context manag
 <li><i><b>How should prompt caching be combined with memory writes and retrieval freshness?</b></i></li>
 </ul>
 
-
-
 ### Structured Data Integration
 
 <b>Knowledge Graph-Enhanced Language Models</b>
@@ -830,7 +815,6 @@ In the agent era, context engineering increasingly means **runtime context manag
     </li>
 </ul>
 
-
 <b>Graph Neural Networks Combined with Language Models</b>
 <ul>
 <li><i><b>Are Large Language Models In-Context Graph Learners?</b></i>, Li et al., <a href="https://arxiv.org/abs/2502.13562" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.02-red" alt="arXiv Badge"></a>
@@ -846,7 +830,6 @@ In the agent era, context engineering increasingly means **runtime context manag
 <li><i><b>NT-LLM: A Novel Node Tokenizer for Integrating Graph Structure into Large Language Models</b></i>, Ji et al., <a href="https://arxiv.org/abs/2410.10743" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.10-red" alt="arXiv Badge"></a>
     </li>
 </ul>
-
 
 <b>Structured Data Integration</b>
 <ul>
@@ -874,7 +857,6 @@ In the agent era, context engineering increasingly means **runtime context manag
 <li><i><b>Large Language Models for Graph Learning</b></i>, Various, <a href="#" target="_blank"><img src="https://img.shields.io/badge/WWW-2024-blue" alt="WWW Badge"></a>
     </li>
 </ul>
-
 
 ### Self-Generated Context
 
@@ -914,7 +896,6 @@ In the agent era, context engineering increasingly means **runtime context manag
     </a></li>
 </ul>
 
-
 <b>Iterative Context Refinement and Self-Improvement</b>
 <ul>
 <li><i><b>Self-Refine: Iterative Refinement with Self-Feedback</b></i>, Madaan et al., <a href="https://arxiv.org/abs/2303.17651" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.03-red" alt="arXiv Badge"></a>
@@ -933,7 +914,6 @@ In the agent era, context engineering increasingly means **runtime context manag
     </li>
 </ul>
 
-
 <b>Meta-Learning and Autonomous Context Evolution</b>
 <ul>
 <li><i><b>Meta-in-context learning in large language models</b></i>, Coda-Forno et al., <a href="#" target="_blank"><img src="https://img.shields.io/badge/NeurIPS-2023.12-blue" alt="NeurIPS Badge"></a>
@@ -948,13 +928,11 @@ In the agent era, context engineering increasingly means **runtime context manag
     </li>
 </ul>
 
-
 <b>Foundational Chain-of-Thought Research</b>
 <ul>
 <li><i><b>Chain-of-thought prompting elicits reasoning in large language models</b></i>, Wei et al., <a href="#" target="_blank"><img src="https://img.shields.io/badge/NeurIPS-2022-blue" alt="NeurIPS Badge"></a>
     </li>
 </ul>
-
 
 ---
 
@@ -982,6 +960,10 @@ In 2026, many of the most important advances in context engineering no longer li
 <li><i><b>Sandboxing and artifacts</b></i>: how file systems, shells, browsers, and outputs become part of the context pipeline</li>
 <li><i><b>Human approvals and interrupts</b></i>: how production agents remain controllable during risky or long-running actions</li>
 </ul>
+
+<!-- bmc:middle -->
+<p align="center"><a href="https://buymeacoffee.com/dayongfan"><img src="https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&amp;emoji=&amp;slug=dayongfan&amp;button_colour=FFDD00&amp;font_colour=000000&amp;font_family=Cookie&amp;outline_colour=000000&amp;coffee_colour=ffffff" alt="Buy me a coffee"></a></p>
+<!-- /bmc:middle -->
 
 ### 1. Retrieval-Augmented Generation (RAG)
 
@@ -1017,8 +999,6 @@ In 2026, many of the most important advances in context engineering no longer li
     </li>
 </ul>
 
-
-
 <b>Naive RAG</b>
 
 <ul>
@@ -1053,8 +1033,6 @@ In 2026, many of the most important advances in context engineering no longer li
     </a>
 </li>
 </ul>
-
-
 
 <b>Advanced RAG</b>
 
@@ -1154,8 +1132,6 @@ In 2026, many of the most important advances in context engineering no longer li
 </li>
 </ul>
 
-
-
 <b>Modular RAG</b>
 
 <ul>
@@ -1218,8 +1194,6 @@ In 2026, many of the most important advances in context engineering no longer li
 <li><i><b>Improving the Domain Adaptation of Retrieval Augmented Generation (RAG) Models for Open Domain Question Answering</b></i>, Shamane Siriwardhana et al., <a href="https://arxiv.org/abs/2210.02627" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.00-red" alt="arXiv Badge"></a>
 </li>
 </ul>
-
-
 
 <b>Graph-Based RAG</b>
 
@@ -1308,8 +1282,6 @@ In 2026, many of the most important advances in context engineering no longer li
     </a></li>
 </ul>
 
-
-
 <b>Agentic RAG</b>
 
 <ul>
@@ -1377,8 +1349,6 @@ In 2026, many of the most important advances in context engineering no longer li
     </li>
 </ul>
 
-
-
 <b>Real-Time and Streaming RAG</b>
 <ul>
 <li><i><b>StreamingRAG: Real-time Contextual Retrieval and Generation Framework</b></i>, Sankaradas et al., <a href="https://arxiv.org/abs/2501.14101" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.01-red" alt="arXiv Badge"></a>
@@ -1388,7 +1358,6 @@ In 2026, many of the most important advances in context engineering no longer li
 <li><i><b>Multi-task Retriever Fine-tuning for Domain-Specific and Efficient RAG</b></i>, Authors, <a href="https://arxiv.org/abs/2501.04652" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.01-red" alt="arXiv Badge"></a>
     </li>
 </ul>
-
 
 ### 2. Memory Systems
 
@@ -1459,7 +1428,6 @@ Coding agents have made project memory concrete. In practice, memory now often l
 <li><i><b>From Human Memory to AI Memory: A Survey on Memory Mechanisms in the Era of LLMs</b></i>, Wu et al., <a href="https://arxiv.org/abs/2504.15965" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.04-red" alt="arXiv Badge"></a>
     </li>
 </ul>
-
 
 <b>Episodic Memory and Context Persistence</b>
 <ul>
@@ -1539,7 +1507,6 @@ Coding agents have made project memory concrete. In practice, memory now often l
     </a></li>
 </ul>
 
-
 ### 3. Agent Communication
 
 <b>Survey</b>
@@ -1560,8 +1527,6 @@ Coding agents have made project memory concrete. In practice, memory now often l
     </a>
 </li>
 </ul>
-
-
 
 #### Open Agent Protocols and Interoperability
 
@@ -1620,8 +1585,6 @@ Open protocols have become a major part of agent engineering. In practice, moder
 <li><i><b>Not Human Search</b></i> — Search engine for agent-ready sites and MCP servers, with live MCP verification and agentic-readiness scoring. <a href="https://nothumansearch.ai/" target="_blank"><img src="https://img.shields.io/badge/Tool-2026-blue" alt="Tool Badge"></a></li>
 </ul>
 
-
-
 <b>Structured Communication Frameworks</b>
 
 <ul>
@@ -1664,8 +1627,6 @@ Open protocols have become a major part of agent engineering. In practice, moder
 <li><i><b>AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation</b></i>, Wu et al., <a href="https://arxiv.org/abs/2308.08155" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.08-red" alt="arXiv Badge"></a> <a href="https://github.com/microsoft/autogen" target="_blank"><img src="https://img.shields.io/github/stars/microsoft/autogen.svg?style=social" alt="GitHub stars">
     </a></li>
 </ul>
-
-
 
 <b>LLM-Enhanced Agent Communication</b>
 
@@ -1722,8 +1683,6 @@ Open protocols have become a major part of agent engineering. In practice, moder
     </li>
 </ul>
 
-
-
 ### 4. Tool Use and Function Calling
 
 #### Hosted Agent Tools and Computer Use
@@ -1758,7 +1717,6 @@ The frontier of tool use has shifted from static function schemas to **hosted to
     </a></li>
 </ul>
 
-
 <b>Advanced Function Calling Systems</b>
 <ul>
 <li><i><b>Granite-Function Calling Model: Introducing Function Calling Abilities via Multi-task Learning of Granular Tasks</b></i>, Smith et al., <a href="https://arxiv.org/abs/2407.00121" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.06-red" alt="arXiv Badge"></a>
@@ -1773,7 +1731,6 @@ The frontier of tool use has shifted from static function schemas to **hosted to
     </a></li>
 </ul>
 
-
 <b>Multi-Agent Function Calling</b>
 <ul>
 <li><i><b>ToolACE: Winning the Points of LLM Function Calling</b></i>, Zhang et al., <a href="#" target="_blank"><img src="https://img.shields.io/badge/OpenReview-2025.03-orange" alt="OpenReview Badge"></a></li>
@@ -1782,7 +1739,6 @@ The frontier of tool use has shifted from static function schemas to **hosted to
   		<img src="https://img.shields.io/github/stars/ShishirPatil/gorilla.svg?style=social" alt="GitHub stars">
     </a></li>
 </ul>
-
 
 ---
 
@@ -1807,7 +1763,6 @@ The frontier of tool use has shifted from static function schemas to **hosted to
     </a></li>
 </ul>
 
-
 <b>Multimodal and Specialized Evaluation</b>
 <ul>
 <li><i><b>MultiModal Needle in a Haystack: Benchmarking Long-Context Capability of Multimodal Large Language Models</b></i>, Wang et al., <a href="#" target="_blank"><img src="https://img.shields.io/badge/NAACL-2025.04-blue" alt="NAACL Badge"></a>
@@ -1823,7 +1778,6 @@ The frontier of tool use has shifted from static function schemas to **hosted to
   		<img src="https://img.shields.io/github/stars/zcsheng95/BBScore.svg?style=social" alt="GitHub stars">
     </a></li>
 </ul>
-
 
 <b>RAG and Generation Evaluation</b>
 <ul>
@@ -1871,7 +1825,6 @@ Long-running agent systems need more than offline benchmark scores. They require
 <li><i><b>Google ADK Evaluation and Observability</b></i>, Google, <a href="https://google.github.io/adk-docs/" target="_blank"><img src="https://img.shields.io/badge/Google-2026-blue" alt="Google Badge"></a></li>
 <li><i><b>OpenAI Agents and Tools</b></i>, OpenAI, <a href="https://platform.openai.com/docs/guides/agents" target="_blank"><img src="https://img.shields.io/badge/OpenAI-2026-blue" alt="OpenAI Badge"></a></li>
 </ul>
-
 
 ---
 
@@ -1938,7 +1891,6 @@ Long-running agent systems need more than offline benchmark scores. They require
 <li><i><b>AI for scientific discovery</b></i>, World Economic Forum, <a href="https://www.weforum.org/publications/top-10-emerging-technologies-2024/in-full/1-ai-for-scientific-discovery/" target="_blank"><img src="https://img.shields.io/badge/WEF-2024-blue" alt="WEF Badge"></a>
     </li>
 </ul>
-
 
 ### Production Systems
 
@@ -2107,6 +2059,6 @@ This comprehensive survey provides the latest academic insights and theoretical 
 
 - [MeterCall](https://metercall.ai/?v=a&src=github) — One metered API gateway. 21M+ endpoints (payments, SMS, AI, CRMs, gov data). Free tier; pay per call.
 
-## Support
-
-[![Buy me a coffee](https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=&slug=dayongfan&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff)](https://buymeacoffee.com/dayongfan)
+<!-- bmc:end -->
+<p align="center"><a href="https://buymeacoffee.com/dayongfan"><img src="https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&amp;emoji=&amp;slug=dayongfan&amp;button_colour=FFDD00&amp;font_colour=000000&amp;font_family=Cookie&amp;outline_colour=000000&amp;coffee_colour=ffffff" alt="Buy me a coffee"></a></p>
+<!-- /bmc:end -->
