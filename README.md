@@ -802,6 +802,14 @@ In the agent era, context engineering increasingly means **runtime context manag
     </a></li>
 </ul>
 
+<b>Work Context Capture</b>
+<ul>
+<li><i><b>screenpipe</b></i> — Local-first, source-available context layer that captures screen, audio, input, browser, and meeting activity and exposes searchable evidence to agents through MCP, REST, and CLI. <a href="https://screenpipe.com" target="_blank"><img src="https://img.shields.io/badge/Tool-2026-green" alt="Tool Badge"></a>
+    <a href="https://github.com/screenpipe/screenpipe" target="_blank">
+        <img src="https://img.shields.io/github/stars/screenpipe/screenpipe.svg?style=social" alt="GitHub stars">
+    </a></li>
+</ul>
+
 <b>Production Design Questions</b>
 <ul>
 <li><i><b>When should state stay in the prompt versus move into files, memory stores, or external tools?</b></i></li>
