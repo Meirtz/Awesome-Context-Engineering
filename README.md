@@ -507,6 +507,7 @@ This Bayesian formulation enables:
 
 ## 🌐 Related Blogs
 
+- [Darkmoon](https://github.com/ASCIT31/Dark-Moon) - Open source autonomous pentest engine (GPL-3.0): AD + Kubernetes + web, evidence trail on every finding, runs on local or hosted models.
 - [Bernstein](https://github.com/sipyourdrink-ltd/bernstein) - Multi-agent orchestrator with context-aware model routing. Routes tasks to optimal models based on complexity, manages context across parallel agents.
 - [The rise of "context engineering"](https://blog.langchain.com/the-rise-of-context-engineering/)
 - [The New Skill in AI is Not Prompting, It's Context Engineering](https://www.philschmid.de/context-engineering)
