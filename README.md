@@ -1970,6 +1970,10 @@ Long-running agent systems need more than offline benchmark scores. They require
     <a href="https://github.com/autohandai/code-cli" target="_blank">
   		<img src="https://img.shields.io/github/stars/autohandai/code-cli.svg?style=social" alt="GitHub stars">
     </a></li>
+<li><i><b>DevProjex: GUI and CLI for Clean, AI-Ready Project Context with Folder Trees, File Contents, Token Counting, Smart Ignore, Preview, and Multi-Format Export</b></i>, Avazbek22, <a href="https://github.com/Avazbek22/DevProjex" target="_blank"><img src="https://img.shields.io/badge/Tool-2026-green" alt="Tool Badge"></a>
+    <a href="https://github.com/Avazbek22/DevProjex" target="_blank">
+        <img src="https://img.shields.io/github/stars/Avazbek22/DevProjex.svg?style=social" alt="GitHub stars">
+    </a></li>
 </ul>
 
 #### Coding Agents and Project Memory
