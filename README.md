@@ -1866,6 +1866,7 @@ Long-running agent systems need more than offline benchmark scores. They require
 
 <b>Observability and Telemetry References</b>
 <ul>
+<li><i><b>ClawBench: Can AI Agents Complete Everyday Online Tasks?</b></i>, Zhang et al., <a href="https://arxiv.org/abs/2604.08523" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026.04-red" alt="arXiv Badge"></a> <a href="https://claw-bench.com/" target="_blank"><img src="https://img.shields.io/badge/Benchmark-2026-orange" alt="Benchmark Badge"></a> <a href="https://github.com/reacher-z/ClawBench" target="_blank"><img src="https://img.shields.io/github/stars/TIGER-AI-Lab/ClawBench.svg?style=social" alt="GitHub stars"></a></li>
 <li><i><b>LangSmith Observability Quickstart</b></i>, LangChain, <a href="https://docs.langchain.com/langsmith/observability-quickstart" target="_blank"><img src="https://img.shields.io/badge/LangChain-2026-blue" alt="LangChain Badge"></a></li>
 <li><i><b>OpenTelemetry Semantic Conventions for Generative AI</b></i>, OpenTelemetry, <a href="https://opentelemetry.io/docs/specs/semconv/gen-ai/" target="_blank"><img src="https://img.shields.io/badge/OpenTelemetry-2026-blue" alt="OpenTelemetry Badge"></a></li>
 <li><i><b>Google ADK Evaluation and Observability</b></i>, Google, <a href="https://google.github.io/adk-docs/" target="_blank"><img src="https://img.shields.io/badge/Google-2026-blue" alt="Google Badge"></a></li>
