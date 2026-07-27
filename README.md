@@ -298,6 +298,11 @@ Readers primarily interested in the 2026 shift should jump to the expanded secti
     <a href="https://mem0.ai/research" target="_blank">
   		<img src="https://img.shields.io/github/stars/mem0ai/mem0.svg?style=social" alt="GitHub stars">
     </a></li>
+<li><i><b>Statewave</b></i> Open-source persistent state management layer for AI agents. Provides durable runtime state, shared context, checkpointing, and cross-session continuity for long-running and multi-agent workflows.
+    <a href="https://github.com/Infrasity-Labs/statewave">
+        <img src="https://img.shields.io/github/stars/Infrasity-Labs/statewave.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
 <li><i><b>MEM1: Learning to Synergize Memory and Reasoning for Efficient Long-Horizon Agents</b></i>, Anonymous et al., <a href="https://arxiv.org/abs/2506.15841" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.06-red" alt="arXiv Badge"></a>
     <a href="https://github.com/mannaandpoem/openmanus" target="_blank">
   		<img src="https://img.shields.io/github/stars/mannaandpoem/openmanus.svg?style=social" alt="GitHub stars">
