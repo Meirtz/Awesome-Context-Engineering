@@ -298,6 +298,11 @@ Readers primarily interested in the 2026 shift should jump to the expanded secti
     <a href="https://mem0.ai/research" target="_blank">
   		<img src="https://img.shields.io/github/stars/mem0ai/mem0.svg?style=social" alt="GitHub stars">
     </a></li>
+<li><i><b>Statewave</b></i> Open-source persistent state management layer for AI agents. Provides durable runtime state, shared context, checkpointing, and cross-session continuity for long-running and multi-agent workflows.
+    <a href="https://github.com/Infrasity-Labs/statewave">
+        <img src="https://img.shields.io/github/stars/Infrasity-Labs/statewave.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
 <li><i><b>MEM1: Learning to Synergize Memory and Reasoning for Efficient Long-Horizon Agents</b></i>, Anonymous et al., <a href="https://arxiv.org/abs/2506.15841" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.06-red" alt="arXiv Badge"></a>
     <a href="https://github.com/mannaandpoem/openmanus" target="_blank">
   		<img src="https://img.shields.io/github/stars/mannaandpoem/openmanus.svg?style=social" alt="GitHub stars">
@@ -1463,6 +1468,13 @@ Coding agents have made project memory concrete. In practice, memory now often l
 
 <b>Episodic Memory and Context Persistence</b>
 <ul>
+<li><i><b>Statewave: Persistent State Management for AI Agents</b></i>
+    <a href="https://github.com/smaramwbc/statewave" target="_blank">
+        <img src="https://img.shields.io/github/stars/smaramwbc/statewave.svg?style=social" alt="GitHub stars">
+    </a>
+    <br>
+    Open-source state management layer for AI agents enabling durable runtime state, shared context, and cross-session continuity for long-running and multi-agent workflows.
+</li>
 <li><i><b>The Role of Memory in LLMs: Persistent Context for Smarter Conversations</b></i>, Porcu, <a href="https://doi.org/10.18535/ijsrm/v12i11.ec04" target="_blank"><img src="https://img.shields.io/badge/IJSRM-2024.11-blue" alt="IJSRM Badge"></a>
     </li>
 <li><i><b>Episodic Memory in AI Agents Poses Risks that Should Be Studied and Mitigated</b></i>, Christiano et al., <a href="https://arxiv.org/abs/2401.11739" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.10-red" alt="arXiv Badge"></a>
