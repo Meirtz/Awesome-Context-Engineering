@@ -49,6 +49,7 @@ This repository serves as a comprehensive survey of context engineering techniqu
 ---
 
 ## 🧭 2026 Agent Era Update
+- [Bride Cognitive Engine](https://tools.gracestack.se/bride-api.html) - Cognitive AI API for agent monitoring: anomaly detection, confidence tracking, hypothesis generation. HDC + Active Inference. 499 SEK/month founder pricing.
 
 ### From Context Engineering to Agent Engineering
 
