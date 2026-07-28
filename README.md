@@ -1818,6 +1818,10 @@ The frontier of tool use has shifted from static function schemas to **hosted to
     <a href="https://github.com/hamedR96/CTC" target="_blank">
   		<img src="https://img.shields.io/github/stars/hamedR96/CTC.svg?style=social" alt="GitHub stars">
     </a></li>
+<li><i><b>StructEval: Benchmarking LLMs' Capabilities to Generate Structural Outputs</b></i>, Yang et al., <a href="https://arxiv.org/abs/2505.20139" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.05-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/TIGER-AI-Lab/StructEval" target="_blank">
+  		<img src="https://img.shields.io/github/stars/TIGER-AI-Lab/StructEval.svg?style=social" alt="GitHub stars">
+    </a></li>
 <li><i><b>BBScore: A Brownian Bridge Based Metric for Assessing Text Coherence</b></i>, Sheng et al., <a href="https://doi.org/10.1609/aaai.v38i13.29414" target="_blank"><img src="https://img.shields.io/badge/AAAI-2024.03-blue" alt="AAAI Badge"></a>
     <a href="https://github.com/zcsheng95/BBScore" target="_blank">
   		<img src="https://img.shields.io/github/stars/zcsheng95/BBScore.svg?style=social" alt="GitHub stars">
