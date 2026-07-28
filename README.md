@@ -1870,6 +1870,7 @@ Long-running agent systems need more than offline benchmark scores. They require
 <li><i><b>OpenTelemetry Semantic Conventions for Generative AI</b></i>, OpenTelemetry, <a href="https://opentelemetry.io/docs/specs/semconv/gen-ai/" target="_blank"><img src="https://img.shields.io/badge/OpenTelemetry-2026-blue" alt="OpenTelemetry Badge"></a></li>
 <li><i><b>Google ADK Evaluation and Observability</b></i>, Google, <a href="https://google.github.io/adk-docs/" target="_blank"><img src="https://img.shields.io/badge/Google-2026-blue" alt="Google Badge"></a></li>
 <li><i><b>OpenAI Agents and Tools</b></i>, OpenAI, <a href="https://platform.openai.com/docs/guides/agents" target="_blank"><img src="https://img.shields.io/badge/OpenAI-2026-blue" alt="OpenAI Badge"></a></li>
+<li><i><b>Awesome AI Tokenomics</b></i>, Quesma, <a href="https://github.com/QuesmaOrg/awesome-ai-tokenomics" target="_blank"><img src="https://img.shields.io/badge/GitHub-2026-white" alt="GitHub Badge"></a></li>
 </ul>
 
 
