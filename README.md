@@ -1970,6 +1970,10 @@ Long-running agent systems need more than offline benchmark scores. They require
     <a href="https://github.com/autohandai/code-cli" target="_blank">
   		<img src="https://img.shields.io/github/stars/autohandai/code-cli.svg?style=social" alt="GitHub stars">
     </a></li>
+<li><i><b>Workspai: Open-Source Workspace Intelligence for Software Systems</b></i> — builds a canonical workspace model and evidence-backed knowledge graph, then produces bounded context, instructions, skills, impact analysis, and verification evidence for developers, CI, IDEs, and AI agents. <a href="https://github.com/chistiq/workspai" target="_blank"><img src="https://img.shields.io/badge/GitHub-2026-white" alt="GitHub Badge"></a>
+    <a href="https://github.com/chistiq/workspai" target="_blank">
+        <img src="https://img.shields.io/github/stars/chistiq/workspai.svg?style=social" alt="GitHub stars">
+    </a></li>
 </ul>
 
 #### Coding Agents and Project Memory
