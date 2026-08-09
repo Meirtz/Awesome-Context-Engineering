@@ -800,6 +800,10 @@ In the agent era, context engineering increasingly means **runtime context manag
     <a href="https://github.com/juyterman1000/entroly" target="_blank">
   		<img src="https://img.shields.io/github/stars/juyterman1000/entroly.svg?style=social" alt="GitHub stars">
     </a></li>
+<li><i><b>Boost: Runtime Context Optimization for Coding Agents</b></i> — Free CLI that filters terminal and CI output before it reaches coding agents, typically reducing log tokens by 60–90%, with reversible retrieval and local usage analytics. Works with Cursor, Claude Code, and Codex. <a href="https://boost.jfrog.com/" target="_blank"><img src="https://img.shields.io/badge/Tool-2026-green" alt="Tool Badge"></a>
+    <a href="https://github.com/jfrog/boost" target="_blank">
+        <img src="https://img.shields.io/github/stars/jfrog/boost.svg?style=social" alt="GitHub stars">
+    </a></li>
 </ul>
 
 <b>Production Design Questions</b>
