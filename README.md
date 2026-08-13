@@ -1430,6 +1430,10 @@ Coding agents have made project memory concrete. In practice, memory now often l
     <a href="https://github.com/mem0ai/mem0" target="_blank">
   		<img src="https://img.shields.io/github/stars/mem0ai/mem0.svg?style=social" alt="GitHub stars">
     </a></li>
+<li><i><b>Lians: Local-First Temporal Memory for AI Agents</b></i> — Open-source MCP server and SDKs with local SQLite storage, fact supersession, point-in-time recall, and inspectable audit receipts. <a href="https://github.com/Lians-ai/Lians" target="_blank"><img src="https://img.shields.io/badge/Tool-2026-green" alt="Tool Badge"></a>
+    <a href="https://github.com/Lians-ai/Lians" target="_blank">
+        <img src="https://img.shields.io/github/stars/Lians-ai/Lians.svg?style=social" alt="GitHub stars">
+    </a></li>
 <li><i><b>MemoryLLM: Towards Self-Updatable Large Language Models</b></i>, Wang et al., <a href="https://arxiv.org/abs/2402.04624" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.02-red" alt="arXiv Badge"></a>
     <a href="https://github.com/wangyu-ustc/MemoryLLM" target="_blank">
   		<img src="https://img.shields.io/github/stars/wangyu-ustc/MemoryLLM.svg?style=social" alt="GitHub stars">
