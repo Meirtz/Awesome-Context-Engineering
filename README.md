@@ -971,6 +971,7 @@ In 2026, many of the most important advances in context engineering no longer li
 <li><i><b>Google Agent Development Kit (ADK)</b></i>, Google, <a href="https://google.github.io/adk-docs/" target="_blank"><img src="https://img.shields.io/badge/Google-2026-blue" alt="Google Badge"></a></li>
 <li><i><b>LangChain Deep Agents Overview</b></i>, LangChain, <a href="https://docs.langchain.com/oss/python/deepagents/overview" target="_blank"><img src="https://img.shields.io/badge/LangChain-2026-blue" alt="LangChain Badge"></a></li>
 <li><i><b>Microsoft Agent Framework Overview</b></i>, Microsoft, <a href="https://learn.microsoft.com/en-us/agent-framework/user-guide/overview" target="_blank"><img src="https://img.shields.io/badge/Microsoft-2026-blue" alt="Microsoft Badge"></a></li>
+<li><i><b>OpenProgram</b></i> — Open-source self-programming agent framework with DAG-based context, reviewable agentic workflows, tools, memory, and multi-agent execution. <a href="https://github.com/Fzkuji/OpenProgram" target="_blank"><img src="https://img.shields.io/badge/GitHub-2026-white" alt="GitHub Badge"></a></li>
 <li><i><b>Bring Your AI</b></i> — Local-first Claude Code to Codex harness mover for rules, skills, MCP config, and validation notes. <a href="https://bringyour.ai/claude-code-to-codex" target="_blank"><img src="https://img.shields.io/badge/Tool-2026-blue" alt="Tool Badge"></a></li>
 </ul>
 
