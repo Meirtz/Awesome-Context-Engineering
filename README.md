@@ -1970,6 +1970,10 @@ Long-running agent systems need more than offline benchmark scores. They require
     <a href="https://github.com/autohandai/code-cli" target="_blank">
   		<img src="https://img.shields.io/github/stars/autohandai/code-cli.svg?style=social" alt="GitHub stars">
     </a></li>
+<li><i><b>Agent QA: Persistent Test Memory for Self-Improving Software QA</b></i>, Vostride, <a href="https://github.com/vostride/agent-qa" target="_blank"><img src="https://img.shields.io/badge/Tool-2026-green" alt="Tool Badge"></a> — turns natural-language web and mobile test flows into reusable, evidence-backed runs, retaining scoped knowledge across executions so the QA agent can adapt to interface changes.
+    <a href="https://github.com/vostride/agent-qa" target="_blank">
+		<img src="https://img.shields.io/github/stars/vostride/agent-qa.svg?style=social" alt="GitHub stars">
+    </a></li>
 </ul>
 
 #### Coding Agents and Project Memory
