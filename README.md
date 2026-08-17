@@ -2091,7 +2091,7 @@ This survey builds upon the foundational work of the AI research community. We t
 
 **Star ⭐ this repository if you find it helpful!**
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Meirtz/Awesome-Context-Engineering&type=Date)](https://www.star-history.com/#Meirtz/Awesome-Context-Engineering&Date)
+[![Star History Chart](https://star-history.dera.page/svg?repos=Meirtz/Awesome-Context-Engineering&type=Date)](https://star-history.dera.page/#Meirtz/Awesome-Context-Engineering&Date)
 
 ---
 
