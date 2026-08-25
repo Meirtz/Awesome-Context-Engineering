@@ -796,6 +796,10 @@ In the agent era, context engineering increasingly means **runtime context manag
 
 <b>Context Optimization Engines</b>
 <ul>
+<li><i><b>TokenPilot: Cache-Efficient Context Management for LLM Agents</b></i>, Xu et al., <a href="https://arxiv.org/abs/2606.17016" target="_blank"><img src="https://img.shields.io/badge/EMNLP-2026-blue" alt="EMNLP Badge"></a>
+    <a href="https://github.com/zjunlp/LightRSI" target="_blank">
+        <img src="https://img.shields.io/github/stars/zjunlp/LightRSI.svg?style=social" alt="GitHub stars">
+    </a></li>
 <li><i><b>Entroly: The Context Engineering Engine for AI Coding Agents</b></i> — Information-theoretic context optimization — 78% fewer tokens, 100% codebase visibility, reinforcement learning, Rust engine (<10ms). MCP server + HTTP proxy. Works with Cursor, Claude Code, Copilot, OpenClaw. <a href="https://github.com/juyterman1000/entroly" target="_blank"><img src="https://img.shields.io/badge/Tool-2025-green" alt="Tool Badge"></a>
     <a href="https://github.com/juyterman1000/entroly" target="_blank">
   		<img src="https://img.shields.io/github/stars/juyterman1000/entroly.svg?style=social" alt="GitHub stars">
