@@ -850,6 +850,11 @@ In the agent era, context engineering increasingly means **runtime context manag
 
 <b>Structured Data Integration</b>
 <ul>
+<li><i><b>Graph of States: Solving Abductive Tasks with Large Language Models</b></i>, Luo et al., <a href="https://arxiv.org/abs/2603.21250" target="_blank"><img src="https://img.shields.io/badge/ICML-2026.00-blue" alt="ICML Badge"></a>
+    <a href="https://github.com/gaorch85/Graph-of-States" target="_blank">
+        <img src="https://img.shields.io/github/stars/gaorch85/Graph-of-States.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
 <li><i><b>CoddLLM: Empowering Large Language Models for Data Analytics</b></i>, Authors et al., <a href="https://arxiv.org/abs/2502.00329" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.02-red" alt="arXiv Badge"></a>
     </li>
 <li><i><b>Structure-Guided Large Language Models for Text-to-SQL Generation</b></i>, Authors et al., <a href="https://arxiv.org/abs/2402.13284" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.02-red" alt="arXiv Badge"></a>
