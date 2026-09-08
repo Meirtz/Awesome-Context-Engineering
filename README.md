@@ -972,6 +972,10 @@ In 2026, many of the most important advances in context engineering no longer li
 <li><i><b>LangChain Deep Agents Overview</b></i>, LangChain, <a href="https://docs.langchain.com/oss/python/deepagents/overview" target="_blank"><img src="https://img.shields.io/badge/LangChain-2026-blue" alt="LangChain Badge"></a></li>
 <li><i><b>Microsoft Agent Framework Overview</b></i>, Microsoft, <a href="https://learn.microsoft.com/en-us/agent-framework/user-guide/overview" target="_blank"><img src="https://img.shields.io/badge/Microsoft-2026-blue" alt="Microsoft Badge"></a></li>
 <li><i><b>Bring Your AI</b></i> — Local-first Claude Code to Codex harness mover for rules, skills, MCP config, and validation notes. <a href="https://bringyour.ai/claude-code-to-codex" target="_blank"><img src="https://img.shields.io/badge/Tool-2026-blue" alt="Tool Badge"></a></li>
+<li><i><b>YYLO</b></i> — Command-line orchestrator for coding agents that creates a dedicated branch/worktree per task with typed task, validation, merge, and release-readiness boundaries; a merge queue owns risk-based review. <a href="https://github.com/yylo-dev/yylo" target="_blank"><img src="https://img.shields.io/badge/Tool-2026-blue" alt="Tool Badge"></a>
+    <a href="https://github.com/yylo-dev/yylo" target="_blank">
+  		<img src="https://img.shields.io/github/stars/yylo-dev/yylo.svg?style=social" alt="GitHub stars">
+    </a></li>
 </ul>
 
 <b>Core Runtime Concerns</b>
