@@ -1966,7 +1966,8 @@ Long-running agent systems need more than offline benchmark scores. They require
 
 <b>Developer Tools with Context Engineering</b>
 <ul>
-<li><i><b>Autohand Code CLI: Autonomous Coding Agent with Semantic Search, Memory, and Context Management</b></i>, Autohand AI, <a href="https://www.autohand.ai/code/" target="_blank"><img src="https://img.shields.io/badge/Tool-2025-green" alt="Tool Badge"></a>
+<l<li><a href="https://github.com/Taha-azizi/contextpress" target="_blank"><b>contextpress</b>b></a>a>: Deterministic context compression for LLM chat, RAG, and agent pipelines (<code>pip install contextpress</code>code>) — Tier-1 NLP stages, no API key; optional Tier-2 LLM backends</l>li>
+  i><i><b>Autohand Code CLI: Autonomous Coding Agent with Semantic Search, Memory, and Context Management</b></i>, Autohand AI, <a href="https://www.autohand.ai/code/" target="_blank"><img src="https://img.shields.io/badge/Tool-2025-green" alt="Tool Badge"></a>
     <a href="https://github.com/autohandai/code-cli" target="_blank">
   		<img src="https://img.shields.io/github/stars/autohandai/code-cli.svg?style=social" alt="GitHub stars">
     </a></li>
