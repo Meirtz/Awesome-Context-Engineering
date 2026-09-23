@@ -1618,6 +1618,7 @@ Open protocols have become a major part of agent engineering. In practice, moder
     </a>
 </li>
 <li><i><b>Not Human Search</b></i> — Search engine for agent-ready sites and MCP servers, with live MCP verification and agentic-readiness scoring. <a href="https://nothumansearch.ai/" target="_blank"><img src="https://img.shields.io/badge/Tool-2026-blue" alt="Tool Badge"></a></li>
+<li><i><b>Cortex</b></i> - Generates typed MCP servers, SDKs, and interactive documentation from API specifications. <a href="https://github.com/cortex-docs/cortex" target="_blank"><img src="https://img.shields.io/badge/Tool-2026-blue" alt="Tool Badge"></a></li>
 </ul>
 
 
