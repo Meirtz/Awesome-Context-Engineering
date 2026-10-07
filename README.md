@@ -1159,6 +1159,12 @@ In 2026, many of the most important advances in context engineering no longer li
 <b>Modular RAG</b>
 
 <ul>
+<li><i><b>Enhancing Retrieval and Managing Retrieval: A Four-Module Synergy for Improved Quality and Efficiency in RAG Systems</b></i>, Yunxiao Shi et al., <a href="https://doi.org/10.3233/FAIA240748" target="_blank"><img src="https://img.shields.io/badge/ECAI-2024-blue" alt="ECAI Badge"></a>
+    <a href="https://arxiv.org/abs/2407.10670" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.07-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/Ancientshi/ERM4" target="_blank">
+        <img src="https://img.shields.io/github/stars/Ancientshi/ERM4.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
 <li><i><b>FlashRAG: A Modular Toolkit for Efficient Retrieval-Augmented Generation Research</b></i>, Jiajie Jin et al., <a href="https://arxiv.org/abs/2405.13576" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.00-red" alt="arXiv Badge"></a>
     <a href="https://github.com/RUC-NLPIR/FlashRAG" target="_blank">
         <img src="https://img.shields.io/github/stars/RUC-NLPIR/FlashRAG.svg?style=social" alt="GitHub stars">
