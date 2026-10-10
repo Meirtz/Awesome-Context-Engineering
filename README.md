@@ -800,6 +800,10 @@ In the agent era, context engineering increasingly means **runtime context manag
     <a href="https://github.com/juyterman1000/entroly" target="_blank">
   		<img src="https://img.shields.io/github/stars/juyterman1000/entroly.svg?style=social" alt="GitHub stars">
     </a></li>
+<li><i><b>Bandpass: The Context Compiler for AI Agents</b></i> — Compiles memory exports, files, git state and mission checkpoints into budget-bounded <b>Context Capsules</b> (known / uncertain / unknown / superseded sections with per-item provenance and a visible rejection ledger). Deterministic, no model calls, ~1ms compiles. Six read-only MCP tools (context_compile, context_explain, context_diff), CLI, and an interactive lab. <a href="https://github.com/MajidAsghariTabrizi/bandpass" target="_blank"><img src="https://img.shields.io/badge/Tool-2026-green" alt="Tool Badge"></a>
+    <a href="https://github.com/MajidAsghariTabrizi/bandpass" target="_blank">
+  		<img src="https://img.shields.io/github/stars/MajidAsghariTabrizi/bandpass.svg?style=social" alt="GitHub stars">
+    </a></li>
 </ul>
 
 <b>Production Design Questions</b>
