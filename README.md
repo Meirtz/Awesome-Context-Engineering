@@ -800,6 +800,7 @@ In the agent era, context engineering increasingly means **runtime context manag
     <a href="https://github.com/juyterman1000/entroly" target="_blank">
   		<img src="https://img.shields.io/github/stars/juyterman1000/entroly.svg?style=social" alt="GitHub stars">
     </a></li>
+<li><i><b>TOMC Memory</b></i> — CPU-based context compression and task memory that prepares supplied histories and explicitly saved notes for a token budget, with a Python API and local MCP server for Claude Code and Codex (MIT; research preview). <a href="https://github.com/ZipengWu365/TOMC" target="_blank"><img src="https://img.shields.io/badge/GitHub-white" alt="GitHub Badge"></a></li>
 </ul>
 
 <b>Production Design Questions</b>
