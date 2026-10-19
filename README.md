@@ -917,6 +917,7 @@ In the agent era, context engineering increasingly means **runtime context manag
 
 <b>Iterative Context Refinement and Self-Improvement</b>
 <ul>
+<li><i><b>Recursive Harness Distillation across Agents for Robot Manipulation</b></i>, Kim et al., <a href="https://arxiv.org/abs/2609.33378" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026.09-red" alt="arXiv Badge"></a></li>
 <li><i><b>Self-Refine: Iterative Refinement with Self-Feedback</b></i>, Madaan et al., <a href="https://arxiv.org/abs/2303.17651" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.03-red" alt="arXiv Badge"></a>
     <a href="https://github.com/madaan/self-refine" target="_blank">
   		<img src="https://img.shields.io/github/stars/madaan/self-refine.svg?style=social" alt="GitHub stars">
