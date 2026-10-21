@@ -801,6 +801,7 @@ In the agent era, context engineering increasingly means **runtime context manag
   		<img src="https://img.shields.io/github/stars/juyterman1000/entroly.svg?style=social" alt="GitHub stars">
     </a></li>
 <li><i><b>TekMyra: Governed Context Compression</b></i> — Open-source (Apache-2.0) context compression for LLM pipelines that checks every protected span (identifiers, amounts, citations) survives before it emits, refuses when it cannot, and counts refusals against its published numbers. Paper on Zenodo, figures re-run in CI from the released model bundle.
+    <a href="https://doi.org/10.5281/zenodo.22243913" target="_blank"><img src="https://img.shields.io/badge/Zenodo-2026.08-blue" alt="Zenodo Badge"></a>
     <a href="https://github.com/laconiq-ai/tekmyra" target="_blank">
   		<img src="https://img.shields.io/github/stars/laconiq-ai/tekmyra.svg?style=social" alt="GitHub stars">
     </a></li>
