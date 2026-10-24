@@ -1081,9 +1081,24 @@ In 2026, many of the most important advances in context engineering no longer li
 </li>
 <li><i><b>Astute RAG: Overcoming Imperfect Retrieval Augmentation and Knowledge Conflicts for Large Language Models</b></i>, Fei Wang et al., <a href="https://arxiv.org/abs/2410.07176" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.00-red" alt="arXiv Badge"></a>
 </li>
+<li><i><b>ParamMute: Suppressing Knowledge-Critical FFNs for Faithful Retrieval-Augmented Generation</b></i>, Pengcheng Huang et al., <a href="https://arxiv.org/abs/2502.15543" target="_blank"><img src="https://img.shields.io/badge/NeurIPS-2025.02-blue" alt="NeurIPS Badge"></a>
+    <a href="https://github.com/OpenBMB/ParamMute" target="_blank">
+        <img src="https://img.shields.io/github/stars/OpenBMB/ParamMute.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>SPARK: Adaptive Parametric Knowledge Participation for Faithful Retrieval-Augmented Generation</b></i>, Ruochang Li et al., <a href="https://arxiv.org/abs/2606.27786" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026.06-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/OpenBMB/SPARK" target="_blank">
+        <img src="https://img.shields.io/github/stars/OpenBMB/SPARK.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
 <li><i><b>Learning to Filter Context for Retrieval-Augmented Generation</b></i>, Zhiruo Wang et al., <a href="https://arxiv.org/abs/2311.08377" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.00-red" alt="arXiv Badge"></a>
     <a href="https://github.com/zorazrw/filco" target="_blank">
         <img src="https://img.shields.io/github/stars/zorazrw/filco.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>ExpandR: Teaching Dense Retrievers Beyond Queries with LLM Guidance</b></i>, Sijia Yao et al., <a href="https://arxiv.org/abs/2502.17057" target="_blank"><img src="https://img.shields.io/badge/EMNLP-2025.02-blue" alt="EMNLP Badge"></a>
+    <a href="https://github.com/NEUIR/ExpandR" target="_blank">
+        <img src="https://img.shields.io/github/stars/NEUIR/ExpandR.svg?style=social" alt="GitHub stars">
     </a>
 </li>
 <li><i><b>Query Rewriting in Retrieval-Augmented Large Language Models</b></i>, Xinbei Ma et al., <a href="https://arxiv.org/abs/2305.14283" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.00-red" alt="arXiv Badge"></a>
@@ -1770,6 +1785,10 @@ The frontier of tool use has shifted from static function schemas to **hosted to
 <li><i><b>Enhancing Function-Calling Capabilities in LLMs: Strategies for Prompt Formats, Data Integration, and Multilingual Translation</b></i>, Chen et al., <a href="https://arxiv.org/abs/2412.01130" target="_blank"><img src="https://img.shields.io/badge/NAACL-2025.04-blue" alt="NAACL Badge"></a>
     </li>
 <li><i><b>A Real-World WebAgent for Complex Web Tasks</b></i>, Zhai et al., <a href="https://arxiv.org/html/2307.12856v4" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.03-red" alt="arXiv Badge">
+    </a></li>
+<li><i><b>Teaching LLMs to Learn Tool Trialing and Execution through Environment Interaction</b></i>, Gao et al., <a href="https://arxiv.org/abs/2601.12762" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026.01-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/NEUIR/ToolMaster" target="_blank">
+  		<img src="https://img.shields.io/github/stars/NEUIR/ToolMaster.svg?style=social" alt="GitHub stars">
     </a></li>
 </ul>
 
