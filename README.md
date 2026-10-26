@@ -1870,6 +1870,7 @@ Long-running agent systems need more than offline benchmark scores. They require
 <li><i><b>OpenTelemetry Semantic Conventions for Generative AI</b></i>, OpenTelemetry, <a href="https://opentelemetry.io/docs/specs/semconv/gen-ai/" target="_blank"><img src="https://img.shields.io/badge/OpenTelemetry-2026-blue" alt="OpenTelemetry Badge"></a></li>
 <li><i><b>Google ADK Evaluation and Observability</b></i>, Google, <a href="https://google.github.io/adk-docs/" target="_blank"><img src="https://img.shields.io/badge/Google-2026-blue" alt="Google Badge"></a></li>
 <li><i><b>OpenAI Agents and Tools</b></i>, OpenAI, <a href="https://platform.openai.com/docs/guides/agents" target="_blank"><img src="https://img.shields.io/badge/OpenAI-2026-blue" alt="OpenAI Badge"></a></li>
+<li><i><b>Speakeasy control plane: agent telemetry</b></i>, Speakeasy, <a href="https://www.speakeasy.com/docs/ai-control-plane/concepts#observability" target="_blank"><img src="https://img.shields.io/badge/Speakeasy-Docs-blue" alt="Speakeasy Docs Badge"></a> — Technical reference on capturing agent sessions and MCP tool calls, attributing activity to enterprise identities, and exporting OpenTelemetry records.</li>
 </ul>
 
 
