@@ -1970,6 +1970,10 @@ Long-running agent systems need more than offline benchmark scores. They require
     <a href="https://github.com/autohandai/code-cli" target="_blank">
   		<img src="https://img.shields.io/github/stars/autohandai/code-cli.svg?style=social" alt="GitHub stars">
     </a></li>
+<li><i><b>Ponder: Coverage-Gated Multi-Pass Deliberation CLI and Append-Only Review Ledger for Coding Agents</b></i>, Quinn O'Donnell, <a href="https://github.com/Quinnod345/ponder" target="_blank"><img src="https://img.shields.io/badge/Tool-2026-green" alt="Tool Badge"></a>
+    <a href="https://github.com/Quinnod345/ponder" target="_blank">
+      <img src="https://img.shields.io/github/stars/Quinnod345/ponder.svg?style=social" alt="GitHub stars">
+    </a></li>
 </ul>
 
 #### Coding Agents and Project Memory
