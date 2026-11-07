@@ -1440,6 +1440,12 @@ Coding agents have made project memory concrete. In practice, memory now often l
     </li>
 </ul>
 
+<b>Multimodal Streaming Memory</b>
+<ul>
+<li><i><b>OneStreamer: Unifying Perception, Memory, and Proactive Response in Streaming Video Interaction</b></i>, Zeng et al., <a href="https://arxiv.org/abs/2610.01762" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026.10-red" alt="arXiv Badge"></a> <a href="https://github.com/MCG-NJU/OneStreamer" target="_blank"><img src="https://img.shields.io/github/stars/MCG-NJU/OneStreamer.svg?style=social" alt="GitHub stars"></a></li>
+<li><i><b>JoyAI-VL-Interaction: Real-Time Vision-Language Interaction Intelligence</b></i>, Yao et al., <a href="https://arxiv.org/abs/2606.14777" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026.06-red" alt="arXiv Badge"></a> <a href="https://github.com/jd-opensource/JoyAI-VL-Interaction" target="_blank"><img src="https://img.shields.io/github/stars/jd-opensource/JoyAI-VL-Interaction.svg?style=social" alt="GitHub stars"></a></li>
+</ul>
+
 <b>Memory Interchange Standards</b>
 <ul>
 <li><i><b>PAM (Portable AI Memory): An Open Interchange Format for AI User Memories</b></i>, Daniel Gines, <a href="https://portable-ai-memory.org/spec/v1.0/" target="_blank"><img src="https://img.shields.io/badge/Spec-v1.0-blue" alt="Spec Badge"></a>
