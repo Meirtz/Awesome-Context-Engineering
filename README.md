@@ -1996,6 +1996,7 @@ The production ecosystem is increasingly organized around full agent stacks rath
 <li><i><b>LangGraph Memory Overview</b></i>, LangChain, <a href="https://docs.langchain.com/oss/javascript/langgraph/memory" target="_blank"><img src="https://img.shields.io/badge/LangChain-2026-blue" alt="LangChain Badge"></a></li>
 <li><i><b>Microsoft Agent Framework</b></i>, Microsoft, <a href="https://learn.microsoft.com/en-us/agent-framework/user-guide/overview" target="_blank"><img src="https://img.shields.io/badge/Microsoft-2026-blue" alt="Microsoft Badge"></a></li>
 <li><i><b>Puppyone</b></i>, Puppyone, <a href="https://github.com/puppyone-ai/puppyone" target="_blank"><img src="https://img.shields.io/badge/GitHub-2026-white" alt="GitHub Badge"></a> — file system for agents to connect, govern, version, and share context across agent workflows.</li>
+<li><i><b>Heym</b></i>, Heym, <a href="https://github.com/heymrun/heym" target="_blank"><img src="https://img.shields.io/badge/GitHub-2026-white" alt="GitHub Badge"></a> - self-hosted agent runtime with saved workflow state for human approvals, context compression, MCP tools, and execution traces (MIT + Commons Clause).</li>
 </ul>
 
 ---
