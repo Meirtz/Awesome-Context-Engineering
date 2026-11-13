@@ -1438,6 +1438,8 @@ Coding agents have made project memory concrete. In practice, memory now often l
     </li>
 <li><i><b>Memory-Augmented Generative Adversarial Transformers</b></i>, Anonymous et al., <a href="https://arxiv.org/abs/2402.19218" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.02-red" alt="arXiv Badge"></a>
     </li>
+<li><i><b>Who Remembers What? Multi-Granularity Memory Extraction for Multi-User, Multi-Agent Interaction</b></i>, Wang et al., <a href="https://arxiv.org/abs/2611.10439" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026.11-red" alt="arXiv Badge"></a>
+    </li>
 </ul>
 
 <b>Memory Interchange Standards</b>
