@@ -1406,6 +1406,7 @@ Modern memory systems are no longer a single retrieval store. Production agents 
 <li><i><b>LangGraph Memory Overview</b></i>, LangChain, <a href="https://docs.langchain.com/oss/javascript/langgraph/memory" target="_blank"><img src="https://img.shields.io/badge/LangChain-2026-blue" alt="LangChain Badge"></a></li>
 <li><i><b>Letta Memory Blocks</b></i>, Letta, <a href="https://docs.letta.com/guides/core-concepts/memory/memory-blocks" target="_blank"><img src="https://img.shields.io/badge/Letta-2026-blue" alt="Letta Badge"></a></li>
 <li><i><b>Claude Code Memory</b></i>, Anthropic, <a href="https://docs.anthropic.com/en/docs/claude-code/memory" target="_blank"><img src="https://img.shields.io/badge/Anthropic-2026-blue" alt="Anthropic Badge"></a></li>
+  <li><i><b>How AI Agents Maintain State and Memory Across Long-Running Sessions</b>b></i>i>, Agentic Affairs, <a href="https://agentic-affairs.com/ai-agent-state-memory-long-running-sessions/" target="_blank"><img src="https://img.shields.io/badge/Agentic%20Affairs-2026-blue" alt="Agentic Affairs Badge"></a>a></li>
 </ul>
 
 #### Project Memory and Instruction Artifacts
